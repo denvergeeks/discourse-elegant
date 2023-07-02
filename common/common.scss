@@ -1,6 +1,22 @@
+.admin-intro {
+    display: inline-block;
+    width: 51%;
+    vertical-align: top;
+    margin-left: 10%;
+    margin-top: 60px;
+}
 
-.navigation-topics .list-controls .navigation-container .navigation-controls,
-.topic-meta-data,
+.admin-intro .content-wrapper {
+    width: 100%;
+}
+
+.content-wrapper {
+    display: flex !important;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.navigation-topics .list-controls .navigation-container .navigation-controls,.topic-meta-data,
 .categories-list .list-controls .navigation-container .navigation-controls,
 body[class*="tag-"]:not(.archetype-regular):not(.archetype-banner) .list-controls .navigation-container .navigation-controls,
 body[class*="category-"]:not(.archetype-regular):not(.archetype-banner) .list-controls .navigation-container .navigation-controls {
