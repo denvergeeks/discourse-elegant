@@ -1,3 +1,11 @@
+.discourse-no-touch .btn:active:not(:hover):not(:focus),
+.discourse-no-touch .btn.btn-active:not(:hover):not(:focus),
+.btn:active:not(:hover):not(:focus), .btn.btn-active:not(:hover):not(:focus) {
+    background-image: none;
+    background: #b0b0cc !important;
+    color: #fff;
+}
+
 .navigation-controls .select-kit-header {
     height: auto;
 }
