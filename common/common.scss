@@ -2036,7 +2036,8 @@ a:visited {
 }
 
 
-.btn-icon-text {
+.btn-icon-text:active,
+.btn-icon-text:hover {
     color: #fff !important;
     background-color: #009a49 !important;
 }
