@@ -7,6 +7,10 @@
     color: #fff;
 }
 
+.sidebar-section-wrapper .sidebar-section-header-wrapper:focus-within {
+    background: none;
+}
+
 .navigation-controls .select-kit-header {
     height: auto;
 }
