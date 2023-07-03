@@ -45,9 +45,8 @@
 .btn-flat.sidebar-more-section-links-details-summary:active,
 .sidebar-more-section-links-details-summary.json-editor-btn-collapse:active,
 .btn-flat.sidebar-more-section-links-details-summary:hover,
-.sidebar-more-section-links-details-summary.json-editor-btn-collapse:hover,
-.sidebar-section-header-wrapper.sidebar-row:hover {
-
+.sidebar-more-section-links-details-summary.json-editor-btn-collapse:hover {
+    height: 1.5em;
     padding: 0.5em 1em;
     color: #fff;
     background: #b0b0cc;
