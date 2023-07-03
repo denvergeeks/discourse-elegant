@@ -2,7 +2,11 @@
     padding-left: 2em;
 }
 
-
+.btn:not(.bulk-select,.sidebar-section-header) {
+    border-radius: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
 
 .admin-intro {
     display: inline-block;
