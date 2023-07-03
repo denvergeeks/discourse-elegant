@@ -40,6 +40,8 @@
     background: #b0b0cc !important;
 }
 
+.btn-flat.sidebar-more-section-links-details-summary,
+.sidebar-more-section-links-details-summary.json-editor-btn-collapse,
 .btn-flat.sidebar-more-section-links-details-summary:focus-within,
 .sidebar-more-section-links-details-summary.json-editor-btn-collapse:focus-within,
 .btn-flat.sidebar-more-section-links-details-summary:active,
@@ -50,7 +52,7 @@
     padding: 0.5em 1em;
     color: #fff;
     background: #b0b0cc;
-        box-shadow: none !important;
+    box-shadow: none !important;
 }
 
 /*
