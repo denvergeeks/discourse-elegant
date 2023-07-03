@@ -2,12 +2,7 @@
     padding-left: 2em;
 }
 
-.btn-flat.sidebar-more-section-links-details-summary:focus-within,
-.sidebar-more-section-links-details-summary.json-editor-btn-collapse:focus-within,
-.btn-flat.sidebar-more-section-links-details-summary:active,
-.sidebar-more-section-links-details-summary.json-editor-btn-collapse:active,
-.btn-flat.sidebar-more-section-links-details-summary:hover,
-.sidebar-more-section-links-details-summary.json-editor-btn-collapse:hover,
+
 .sidebar-section-header-wrapper.sidebar-row:hover,
 .sidebar-section-link-wrapper .sidebar-section-link.active,
 .sidebar-section-link-wrapper .sidebar-section-link:hover,
@@ -23,6 +18,15 @@
     border-radius: 4px !important;
     box-shadow: 0 1.36px 8.896px #c4b59d, 0 0 1px !important;
    /* height: 1.5em; */
+}
+
+.btn-flat.sidebar-more-section-links-details-summary:focus-within,
+.sidebar-more-section-links-details-summary.json-editor-btn-collapse:focus-within,
+.btn-flat.sidebar-more-section-links-details-summary:active,
+.sidebar-more-section-links-details-summary.json-editor-btn-collapse:active,
+.btn-flat.sidebar-more-section-links-details-summary:hover,
+.sidebar-more-section-links-details-summary.json-editor-btn-collapse:hover {
+     height: 1.5em;
 }
 
 .admin-intro {
