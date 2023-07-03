@@ -5,7 +5,8 @@
 }
 
 .sidebar-section-link-wrapper {
-    padding: 0.5em 1em;
+    /* padding: 0.5em 1em; */
+    padding: var(--d-sidebar-row-horizontal-padding);
 }
 
 .sidebar-section-link-wrapper .sidebar-section-link,
