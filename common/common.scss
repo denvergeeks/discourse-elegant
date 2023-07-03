@@ -1,23 +1,4 @@
 
-
-
-
-.sidebar-section-header-wrapper:focus-within {
-    background: none;
-}
-
-button.sidebar-section-header:active,
-button.sidebar-section-header:hover,
-button.sidebar-section-header:focus {
-    background-image: none;
-    background: #b0b0cc !important;
-    color: #fff;
-}
-
-.navigation-controls .select-kit-header {
-    height: auto;
-}
-
 body.has-sidebar-page #main-outlet-wrapper {
     gap: 0;
 }
@@ -78,6 +59,28 @@ body.has-sidebar-page #main-outlet-wrapper {
     background: #b0b0cc;
     box-shadow: none !important;
 }
+
+
+
+.sidebar-section-wrapper .sidebar-section-header-wrapper:focus-within {
+    background: var(--d-sidebar-highlight-background);
+}
+
+button.sidebar-section-header:active,
+button.sidebar-section-header:hover,
+button.sidebar-section-header:focus {
+    background-image: none;
+    background: #b0b0cc !important;
+    color: #fff;
+}
+
+.navigation-controls .select-kit-header {
+    height: auto;
+}
+
+
+
+
 
 .admin-intro {
     display: inline-block;
