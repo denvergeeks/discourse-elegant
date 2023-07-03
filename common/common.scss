@@ -11,8 +11,7 @@
 .btn-flat a:active,
 .btn-flat a:hover,
 .json-editor-btn-collapse a:active,
-.json-editor-btn-collapse a:hover,
-.btn:not(.bulk-select,.sidebar-section-header) {
+.json-editor-btn-collapse a:hover {
     color: #fff;
     background: #b0b0cc !important;
     border-radius: 4px !important;
@@ -25,7 +24,8 @@
 .btn-flat.sidebar-more-section-links-details-summary:active,
 .sidebar-more-section-links-details-summary.json-editor-btn-collapse:active,
 .btn-flat.sidebar-more-section-links-details-summary:hover,
-.sidebar-more-section-links-details-summary.json-editor-btn-collapse:hover {
+.sidebar-more-section-links-details-summary.json-editor-btn-collapse:hover,
+.btn:not(.bulk-select,.sidebar-section-header) {
      height: 1.5em;
 }
 
