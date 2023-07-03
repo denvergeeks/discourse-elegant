@@ -41,7 +41,12 @@
 }
 
 .btn-flat.sidebar-more-section-links-details-summary,
-.sidebar-more-section-links-details-summary.json-editor-btn-collapse,
+.sidebar-more-section-links-details-summary.json-editor-btn-collapse {
+    height: 1.5em;
+    padding: 0.5em 1em;
+    box-shadow: none !important;
+}
+
 .btn-flat.sidebar-more-section-links-details-summary:focus-within,
 .sidebar-more-section-links-details-summary.json-editor-btn-collapse:focus-within,
 .btn-flat.sidebar-more-section-links-details-summary:active,
