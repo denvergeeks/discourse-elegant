@@ -19,6 +19,10 @@ body.has-sidebar-page #main-outlet-wrapper {
     padding-left: 2em;
 }
 
+.sidebar-wrapper .sidebar-container {
+    border-right: none;
+}
+
 .sidebar-section-link-wrapper {
     padding: 0.3em var(--d-sidebar-row-horizontal-padding);
 }
