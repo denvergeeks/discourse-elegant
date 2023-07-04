@@ -11,6 +11,10 @@ body.has-sidebar-page #main-outlet-wrapper {
     gap: 0;
 }
 
+.sidebar-wrapper {
+    background: transparent;
+}
+
 .sidebar-section-wrapper .sidebar-section-content {
     padding-left: 2em;
 }
