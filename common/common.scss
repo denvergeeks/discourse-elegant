@@ -133,7 +133,7 @@ body[class*="category-"]:not(.archetype-regular):not(.archetype-banner) .list-co
 }
 
 .d-toc-main #d-toc {
-    max-height: calc(100vh - 9em - var(--header-offset));
+    max-height: calc(100vh - 9em - var(--header-offset)) !important;
 }
 
 .d-toc-main #d-toc li.d-toc-item.direct-active>a,
