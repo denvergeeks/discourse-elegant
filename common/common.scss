@@ -132,6 +132,10 @@ body[class*="category-"]:not(.archetype-regular):not(.archetype-banner) .list-co
     width: auto !important;
 }
 
+.d-toc-main #d-toc {
+    max-height: calc(100vh - 9em - var(--header-offset));
+}
+
 .d-toc-main #d-toc li.d-toc-item.direct-active>a,
 .d-toc-h2 a::before {
     fill: #00689c85 !important;
