@@ -42,7 +42,6 @@ body.has-sidebar-page #main-outlet-wrapper {
     padding: 0.5em 1em;
 }
 
-
 .sidebar-section-link-wrapper .sidebar-section-link.active,
 .sidebar-section-link-wrapper .sidebar-section-link:hover,
 .discourse-touch .sidebar-custom-sections a:active,
@@ -78,8 +77,6 @@ body.has-sidebar-page #main-outlet-wrapper {
     box-shadow: none !important;
 }
 
-
-
 .sidebar-section-wrapper .sidebar-section-header-wrapper:focus-within {
     background: none;
 }
@@ -95,10 +92,6 @@ button.sidebar-section-header:focus {
 .navigation-controls .select-kit-header {
     height: auto;
 }
-
-
-
-
 
 .admin-intro {
     display: inline-block;
