@@ -81,6 +81,10 @@ body.has-sidebar-page #main-outlet-wrapper {
     background: none;
 }
 
+button.sidebar-section-header-collapsable {
+    background: #fff;
+}
+
 button.sidebar-section-header:active,
 button.sidebar-section-header:hover,
 button.sidebar-section-header:focus {
