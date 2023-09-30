@@ -2568,45 +2568,6 @@ display: none;
 
 /* END HIDE ELEMENTS TO SIMPLIFY */
 
-/*
-
-.tag-incl-80-side-margins {
-    .wrap {
-        max-width: unset;
-        padding: 0 10px;
-    }
-    .content-wrapper {
-        display: block;
-    }
-    .topic-body {
-        width: 100% !important;
-    }
-}
-
-@media screen and (min-width: 925px) {
-    .tag-incl-80-side-margins {
-        #main-outlet-wrapper {
-            width: 80% !important;
-        }
-    }
-}
-
-.tag-incl-toc {
-    
-        .topic-navigation {
-        display: block !important;
-    }
-
-.topic-above-footer-buttons-outlet.presence {
-    min-height: 0;
-}
-
-.main-content.mobile {
-    margin: 0 !important;
-}
-
-*/
-
 /* 
 
 div[data-theme-boxed] {
@@ -2831,3 +2792,46 @@ div[data-theme-boxed-5] {
 
  */
 
+
+
+
+
+
+
+/* NOT SURE WHAT ALL THIS IS
+
+.tag-incl-80-side-margins {
+    .wrap {
+        max-width: unset;
+        padding: 0 10px;
+    }
+    .content-wrapper {
+        display: block;
+    }
+    .topic-body {
+        width: 100% !important;
+    }
+}
+
+@media screen and (min-width: 925px) {
+    .tag-incl-80-side-margins {
+        #main-outlet-wrapper {
+            width: 80% !important;
+        }
+    }
+}
+
+.tag-incl-toc {
+    .topic-navigation {
+        display: block !important;
+    }
+
+.topic-above-footer-buttons-outlet.presence {
+    min-height: 0;
+}
+
+.main-content.mobile {
+    margin: 0 !important;
+}
+
+*/
