@@ -1,7 +1,11 @@
 /*********** START FIXES FOR SPECIFIC THEME COMPONENTS AND PLUGINS ************/
 
 .post-voting-answers-header {
-    width: unset;
+    width: unset !important;
+}
+
+.floating-search-input .search-banner-inner.wrap .search-menu .widget-button.btn {
+    box-shadow: none !important;
 }
 
 .floating-search-input .search-banner-inner.wrap .search-menu .widget-button.btn .d-icon {
