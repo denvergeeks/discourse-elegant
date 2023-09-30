@@ -1,36 +1,4 @@
-/*********** START FIXES FOR SPECIFIC THEME COMPONENTS AND PLUGINS ************/
 
-.post-voting-answers-header {
-    width: unset !important;
-}
-
-.floating-search-input .search-banner-inner.wrap .search-menu .widget-button.btn {
-    box-shadow: none !important;
-}
-
-.floating-search-input .search-banner-inner.wrap .search-menu .widget-button.btn .d-icon {
-    fill: #009a49 !important;
-}
-
-button#new-create-topic.btn {
-    background-color: #fff;
-}
-
-button#new-create-topic.btn .btn-icon-text:active,
-button#new-create-topic.btn .btn-icon-text:hover {
-    color: #fff !important;
-    background-color: #009a49 !important;
-}
-
-
-
-button#new-create-topic.btn.btn-default.btn-icon-text svg.fa.d-icon.d-icon-plus.svg-icon.svg-node:active,
-button#new-create-topic.btn.btn-default.btn-icon-text svg.fa.d-icon.d-icon-plus.svg-icon.svg-node:hover {
-    color: #fff !important;
-    fill: #fff !important;
-}
-
-/*********** END FIXES FOR SPECIFIC THEME COMPONENTS AND PLUGINS ************/
 
 /*
 .d-header #site-logo {
@@ -1835,6 +1803,52 @@ display: none;
 .main-content {
     margin-bottom: 0 !important;
 }
+
+/*********** START FIXES FOR SPECIFIC THEME COMPONENTS AND PLUGINS ************/
+
+.post-voting-answers-header {
+    width: unset !important;
+}
+
+.floating-search-input .search-banner-inner.wrap .search-menu .widget-button.btn {
+    box-shadow: none !important;
+}
+
+.floating-search-input .search-banner-inner.wrap .search-menu .widget-button.btn .d-icon {
+    fill: #009a49 !important;
+}
+
+button#new-create-topic.btn {
+    background-color: #fff;
+}
+
+button#new-create-topic.btn .btn-icon-text:active,
+button#new-create-topic.btn .btn-icon-text:hover {
+    color: #fff !important;
+    background-color: #009a49 !important;
+}
+
+
+
+button#new-create-topic.btn.btn-default.btn-icon-text svg.fa.d-icon.d-icon-plus.svg-icon.svg-node:active,
+button#new-create-topic.btn.btn-default.btn-icon-text svg.fa.d-icon.d-icon-plus.svg-icon.svg-node:hover {
+    color: #fff !important;
+    fill: #fff !important;
+}
+
+/*********** END FIXES FOR SPECIFIC THEME COMPONENTS AND PLUGINS ************/
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* HIDE ELEMENTS TO SIMPLIFY */
 
