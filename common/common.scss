@@ -17,12 +17,14 @@ button#new-create-topic.btn {
 }
 
 button#new-create-topic.btn .btn-icon-text:active,
-button#new-create-topic.btn .btn-icon-text:hover,
-button#new-create-topic.btn .d-icon {
+button#new-create-topic.btn .btn-icon-text:hover {
     color: #fff !important;
     background-color: #009a49 !important;
 }
 
+button#new-create-topic.btn .d-icon {
+    color: #fff !important;
+}
 
 /*********** END FIXES FOR SPECIFIC THEME COMPONENTS AND PLUGINS ************/
 
