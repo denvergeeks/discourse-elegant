@@ -1,3 +1,8 @@
+/******* FIXES FOR SPECIFIC THEME COMPONENTS AND PLUGINS ************/
+.post-voting-answers-header {
+    width: unset;
+}
+
 /*
 .d-header #site-logo {
     border-radius: 4px !important;
@@ -171,12 +176,6 @@ span.outer-box {
     max-width: 90% !important;
 }
 
-
-
-
-
-
-
 abbr[title]:hover::after, abbr[title]:focus::after {
     content: attr(title);
     width: auto;
@@ -190,12 +189,10 @@ div.profiler-button {
     z-index:999;
 }
 
-
 .custom-header-link-icon .svg-icon {
     height: 1.25em;
     width: 1.25em;
 }
-
 
 /* 
 .custom-header-links .top-level-links .custom-header-link {
@@ -278,8 +275,6 @@ div.container.posts details {
     /* background-color: #00adff12; */
 }
 
-
-
 div.container.posts details[open]>summary:first-of-type ~ *,
 div.container.posts details.open>summary:first-of-type ~ * {
     margin-bottom: 10px;
@@ -308,12 +303,6 @@ div.container.posts summary {
     
 }
 
-
-
-
-
-
-
 details > summary:first-of-type {
     padding: 5px;
 }
@@ -323,25 +312,14 @@ details.open>summary:first-of-type ~ * {
     margin: 20px;
 }
 
-
 details[open] > summary:first-of-type iframe {
     margin: 20px;
 }
-
 
 details button.iframe-expand-btn {
     top: 10px;
     right: 30px;
 }
-
-
-
-
-
-
-
-
-
 
 [data-theme="jonebox"] {
     border: 5px solid var(--primary-low);
@@ -368,491 +346,6 @@ body:not(.layouts-left-full) .main-content.left-sidebar.loading {
     margin-left: 0;
 }
 
-
-
-.tag-book .main-content,
-.category-books .main-content,
-.category-google-book .main-content {
-    width:100% !important;
-}
-
-.tag-book .topic-category,
-.category-books .topic-category,
-.category-google-book .topic-category {
-    margin: 5px 0 15px;
-}
-
-
-.tag-story .topic-category,
-.category-stories .topic-category,
-.category-stories-tech-stories .topic-category {
-    margin: 5px 0;
-}
-
-/*
-.topic-body {
-    padding: 17.25px 0 0 0;
-}
-*/
-
-.tag-book .container.posts,
-.category-books .container.posts,
-.category-google-book .container.posts,
-.tag-story .container.posts,
-.category-stories .container.posts,
-.category-stories-tech-stories .container.posts {
-    grid-template-columns: calc(100% - 100px) 100px !important;
-}
-
-.tag-book .topic-body,
-.category-books .topic-body,
-.category-google-book .topic-body,
-.tag-story .topic-body,
-.category-stories .topic-body,
-.category-stories-tech-stories .topic-body {
-    width: 100% !important;
-}
-
-.tag-story .topic-body,
-.category-stories .topic-body,
-.category-stories-tech-stories .topic-body {
-   padding: 42px 0 0 0;
-}
-
-
-.tag-story .topic-meta-data,
-.category-stories .topic-meta-data,
-.category-stories-tech-stories .topic-meta-data {
-    /*
-    position: absolute;
-    top: -30px;
-    right: 0;
-    */
-    display: none;
-}
-
-
-.tag-book:not(.tag-collection) .post-links-container ul.post-links
-.category-books:not(.tag-collection) .post-links-container ul.post-links,
-.category-google-book:not(.tag-collection) .post-links-container ul.post-links,
-.category-stories:not(.tag-collection) .post-links-container ul.post-links,
-.category-stories-tech-stories:not(.tag-collection) .post-links-container ul.post-links,
-.tag-story:not(.tag-collection) .post-links-container ul.post-links {
-    li {
-        ~ li {
-            display: none;
-        }
-    }
-}
-
-
-
-/* :is(h1, h2, h3):has(+ :is(h2, h3, h4)) { */
-/* not quite works */
-/*
-:has(.category-stories, .category-stories-tech-stories):not(.tag-collection) .post-links-container ul.post-links,
-:has(.category-books):not(.tag-collection) .post-links-container ul.post-links,
-:has(.category-google-book):not(.tag-collection) .post-links-container ul.post-links,
-:has(.tag-book):not(.tag-collection) .post-links-container ul.post-links,
-:has(.tag-story):not(.tag-collection) .post-links-container ul.post-links {
-    li {
-        ~ li {
-            display: none;
-        }
-    }
-}
-*/
-
-
-
-/** Prev and Next Buttons for Books or other Topic Sequencing - this feature is built by repurposing **/
-/**   the native Discourse feature "Reply As A Linked Topic" selector in the composer (top left). **/
-/** TO SET THIS UP ON YOUR DISCOURSE **/
-/** Paste <kbd>%{postLink}</kbd> in /admin/customize/site_texts/js.post.continue_discussion. **/
-/** Then create 2 categories: BOOKS (for Blog Style topic sequences) and STORIES (for Regular Topic Style topic sequences). **/
-/** Install the https://meta.discourse.org/t/blog-post-styling/110841 theme component **/
-/** In the Blog Post Styling Theme Component Settings, assign the BOOKS Category (but not STORIES) as a Blog Category. **/
-/** Then create a tag: BOOK and assign that as a Blog Tag in the Blog Post Styling Theme Component Settings **/
-/** Then don't forget to paste in the below CSS! It goes in your Theme Header. **/
-/** Of course the CSS here will need tweaking to work right in other themes. **/
-/** Now you can create sequences of Topics in the STORIES Category which will have the nav buttons, **/
-/**   but those Topics will otherwise appear in the Regular Topic Style). **/
-/** If you can add the Blog Styling to these STORIES Category Topics by simply adding the BOOK tag. **/
-/** A new Topic you compose in the BOOKS CATEGORY using "Reply as a Linked Topic" will already have both the nav buttons **/
-/**   as well as the Blog Styling. **/
-/** See a Demo at https://meta.discourse.org/t/is-pagination-impossible-or-just-hard/231838/16 **/
-
-
-
-.tag-book,
-.category-books,
-.category-google-book {
-    aside.sidebar,
-    /* .topic-meta-data, */
-    .tag-book .topic-category .badge-wrapper,
-    .category-books .topic-category .badge-wrapper,
-    .category-google-book .topic-category .badge-wrapper {
-        display:none !important;
-    }
-}
-
-
-.tag-book .container.posts,
-.category-books .container.posts,
-.category-google-book .container.posts {
-    margin-top: 30px;
-}
-
-/*????
-.tag-book .container.posts,
-.category-books .container.posts,
-.category-google-book .container.posts {
-    justify-content: unset;
-    justify-items: unset;
-    padding-left: 0;
-
-    margin-top: 30px;
-}
-*/
-
-.tag-book .container.posts .topic-navigation,
-.category-books .container.posts .topic-navigation,
-.category-google-book .container.posts .topic-navigation {
-    margin-top: 0 !important;
-}
-
-.tag-book .container.posts .topic-post .row,
-.category-books .container.posts .topic-post .row,
-.category-google-book .container.posts .topic-post .row {
-    display: block;
-    justify-content: center;
-}
-
-.tag-book #topic-title .title-wrapper,
-.category-books #topic-title .title-wrapper,
-.category-google-book #topic-title .title-wrapper {
-    display: flex;
-    flex-wrap: nowrap;
-    width: 100%;
-    flex-direction: column-reverse;
-}
-
-.tag-book #topic-title,
-.category-books #topic-title,
-.category-google-book #topic-title {
-    display: flex;
-    margin-top: 0;
-    justify-content: flex-start;
-}
-
-.tag-book #topic-title h1,
-.category-books #topic-title h1,
-.category-google-book #topic-title h1 {
-    /* font-size: 1.5em; */
-    margin-bottom: 0!important;
-    /* padding-right: 20px; */
-}
-
-h1 a.edit-topic{
-    position: relative;
-    bottom: 10px;
-}
-
-.tag-book #post_1 .topic-body,
-.category-books #post_1 .topic-body,
-.category-google-book #post_1 .topic-body {
-    padding-top: 2.5em;
-    border-top: none;
-    max-width: 100%;
-}
-
-.tag-book .topic-post:first-child,
-.category-books .topic-post:first-child,
-.category-jens-book .topic-post:first-child {
-    line-height: 1.4;
-    padding-bottom: 0;
-    /* padding-top: 4px; */
-}
-
-
-.tag-book #post_1 .topic-body .contents,
-.category-books #post_1 .topic-body .contents,
-.category-google-book #post_1 .topic-body .contents {
-    border-top: none;
-    margin-left: 0;
-    padding: 0;
-}
-  
-.tag-book p,
-.tag-book ol li,
-.category-books p,
-.category-books ol li,
-.category-google-book ol li,
-.category-google-book p {
-      /*  font-size: var(--font-up-1);
-      font-size: var(--font-0); */
-      font-size: 1.2rem;
-}
-
-/*
- .main-content,
-.category-books .main-content,
-.category-google-book .main-content
-*/
-
-.tag-book div.d-toc-main,
-.category-books div.d-toc-main,
-.category-google-book div.d-toc-main {
-    /* width: 225px; */
-    width: 425px;
-}
-
-div#d-toc {
-    /* font-size: var(--font-up-1); */
-}
-
-/* Position the Books Forward button at the top right of the page */
-.tag-book .post-links-container,
-.category-books .post-links-container,
-.category-google-book .post-links-container {
-    position: absolute;
-    top: -1.3em;
-    right: 0.9em;
-    margin: 0 auto;
-    max-width: 48%;
-    /* width: 100%; */
-    font-family: monospace, monospace;
-}
-
-/* Position the Stories Forward button at the top right of the page */
-.tag-story .post-links-container,
-.category-stories .post-links-container,
-.category-stories-tech-stories .post-links-container {
-    position: absolute;
-    top: -0.5em;
-    right: 0.7em;
-    max-width: 48%;
-    /* width: 100%; */
-    font-family: monospace, monospace;
-
-}
-
-
-/* WHY DOESN'T THIS SECTION WORK!???????????????????????????????????????????????? */
-/*
-.tag-book .tag-collection .post-links-container,
-.category-books .tag-collection .post-links-container,
-.category-google-book .tag-collection .post-links-container,
-.tag-story .tag-collection .post-links-container,
-.category-stories .tag-collection .post-links-container,
-.category-stories-tech-stories .tag-collection .post-links-container {
-  position: absolute;
-  top: 3em !important;
-  right: 3em !important;
-  max-width: 48%;
-  font-family: monospace, monospace;
-}
-*/
-
-/* Remove the link symbol from the Forward button */
-.tag-book .post-links-container ul li .d-icon,
-.tag-story .post-links-container ul li .d-icon,
-.category-books .post-links-container ul li .d-icon,
-.category-google-book .post-links-container ul li .d-icon,
-.category-stories .post-links-container ul li .d-icon,
-.category-stories-tech-stories .post-links-container ul li .d-icon {
-    display: none;
-}
-
-.tag-book .post-links-container .post-links,
-.category-books .post-links-container .post-links,
-.category-google-book .post-links-container .post-links,
-.tag-story .post-links-container .post-links,
-.category-stories .post-links-container .post-links,
-.category-stories-tech-stories .post-links-container .post-links{
-    margin-top: 0;
-    padding-top: 0;
-    border-top: 0;
-    text-align: right;
-    /* width: 90%; */
-    margin: 0 auto;
-}
-
-/*
-.tag-book .post-links-container,
-.category-books .post-links-container,
-.category-google-book .post-links-container {
-    font-size: var(--font-up-1);
-}
-*/
-
-.tag-story .post-links-container .post-links,
-.category-stories .post-links-container .post-links,
-.category-stories-tech-stories .post-links-container .post-links {
-        font-size: var(--font-down-1);
-}
-
-
-.tag-book .post-links-container .post-links li:last-of-type,
-.category-books .post-links-container .post-links li:last-of-type,
-.category-google-book .post-links-container .post-links li:last-of-type,
-.tag-story .post-links-container .post-links li:last-of-type,
-.category-stories .post-links-container .post-links li:last-of-type,
-.category-stories-tech-stories .post-links-container .post-links li:last-of-type {
-    margin-bottom: 0;
-}
-
-/* Style the Next/Forward button */
-.tag-book .post-links-container ul li a[href],
-.category-books .post-links-container ul li a[href],
-.category-google-book .post-links-container ul li a[href],
-.tag-story .post-links-container ul li a[href],
-.category-stories .post-links-container ul li a[href],
-.category-stories-tech-stories .post-links-container ul li a[href] {
-    align-items: center;
-    /* border: 1px solid var(--primary-low-mid); */
-    background: var(--primary-very-low);
-    /* border-bottom-width: 2px; */
-    box-shadow: 0 1.36px 8.896px #c4b59d, 0 0 1px #222 !important;
-    border-radius: 3px;
-    box-sizing: border-box;
-    color: #009a49;
-    /* display: inline-flex; */
-    display: flex;
-    /* font-size: var(--font-down-1); */
-    justify-content: center;
-    line-height: var(--line-height-large);
-    /* margin: 0 0.15em; */
-    min-width: 24px;
-    padding: 0.15em 0.6em;
-}
-
-/* Add arrows pointing right to the Forward button */
-.tag-book .post-links-container ul li a::after,
-.category-books .post-links-container ul li a::after,
-.category-google-book .post-links-container ul li a::after,
-.tag-story .post-links-container ul li a::after,
-.category-stories .post-links-container ul li a::after,
-.category-stories-tech-stories .post-links-container ul li a::after {
-    content: " >>";
-    padding-left: 0.7em;
-}
-
-/* Alternatively Use an Image for the Right Arrow */
-/*
-.tag-book .post-links-container::after,
-.category-books .post-links-container::after,
-.category-google-book .post-links-container::after,
-.tag-story .post-links-container::after,
-.category-stories .post-links-container::after,
-.category-stories-tech-stories .post-links-container::after {
-    content: url('../../media/arrow-right.svg');
-    display: inline-block;
-    width: 12px;
-    height: 12px;
-}
-*/
-
-/* Style the Back/Previous button*/
-.tag-book kbd,
-.category-books kbd,
-.category-google-book kbd,
-.tag-story kbd,
-.category-stories kbd,
-.category-stories-tech-stories kbd {
-    align-items: center;
-    background: var(--primary-very-low);
-    border: none;
-    box-shadow: 0 1.36px 8.896px #c4b59d, 0 0 1px #222 !important;
-    border-radius: 3px;
-    box-sizing: border-box;
-    color: var(--primary);
-    display: inline-flex;
-    justify-content: center;
-    line-height: var(--line-height-large);
-    margin: 0;
-    min-width: 24px;
-    max-width: 48%;
-    position: absolute;
-    transform: translate(0, -64px);
-    left: 0.8em;
-    z-index: 2;
-        font-size: smaller;
-}
-
-.tag-book kbd,
-.category-books kbd,
-.category-google-book kbd {
-    /* transform: translate(0, -77px); */
-    transform: translate(0, -100px); 
-    left: .9em;
-    padding: 0;
-}
-
-.tag-book kbd a,
-.category-books kbd a,
-.category-google-book kbd a {
-    /* font-size: var(--font-up-1); */
-    padding: 0.15em 0.6em;
-}
-
-/* Add arrows to the back buttons */
-.tag-book kbd a::before,
-.category-books kbd a::before,
-.category-google-book kbd a::before,
-.tag-story kbd a::before,
-.category-stories kbd a::before,
-.category-stories-tech-stories kbd a::before {
-    content: "<< ";
-    padding-right: 0.15em;
-}
-
-/* Alternatively Use an Image for the Left Arrow */
-/*
-.tag-book kbd a::before,
-.category-books kbd a::before,
-.category-google-book kbd a::before,
-.tag-story kbd a::before,
-:has(.category-stories, .category-stories-tech-stories) kbd a::before {
-    content: url('../../media/arrow-left.svg');
-    display: inline-block;
-    width: 12px;
-    height: 12px;
-}
-*/
-
-.tag-book #post_1 .cooked>p img:not(.emoji),
-.category-books #post_1 .cooked>p img:not(.emoji),
-.category-google-book #post_1 .cooked>p img:not(.emoji),
-.tag-story #post_1 .cooked>p img:not(.emoji),
-.category-stories #post_1 .cooked>p img:not(.emoji),
-.category-stories-tech-stories #post_1 .cooked>p img:not(.emoji) {
-    display: block;
-}
-
-.post-links-container .track-link span:not(.badge) {
-    white-space: break-spaces;
-}
-
-/** End Topic Sequence Navigation Buttons **/
-
-
-
-.tag-book #post_1 .topic-body .topic-map,
-.category-books #post_1 .topic-body .topic-map,
-.category-google-book #post_1 .topic-body .topic-map {
-    margin: 20px;
-}
-
-
-
-/* END OF STORIES AND BOOKS CSS */
-/* END OF STORIES AND BOOKS CSS */
-/* END OF STORIES AND BOOKS CSS */
-/* END OF STORIES AND BOOKS CSS */
-/* END OF STORIES AND BOOKS CSS */
-
-
 .search-container .search-page-heading span.term {
     background: transparent;
     color: #0088cc;
@@ -865,26 +358,6 @@ div#d-toc {
 .topic-body h1 {
 padding-top: 30px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 div[data-theme-otter] {
   overflow:hidden;
@@ -927,8 +400,6 @@ div[data-theme-hide-details] {
     /* width: 40%; */
 }
 
-
-
 .published-page-header .published-page-header-wrapper {
     width: auto;
 }
@@ -943,6 +414,7 @@ div[data-theme-hide-details] {
     color: var(--header_primary);
     font-size: 1.5em;
 }
+
 /*
 .tag-blog-post .container.posts, .category-blog .container.posts {
     justify-items: unset;
@@ -1132,22 +604,14 @@ nav.post-controls {
     height: 1em;
 }
 
-
-
 .main-content.mobile.topic .container.posts {
    /* grid-template-columns: calc(100% - 100px) 100px !important; */
     /* grid-template-columns: unset; */
 }
 
-
 #topic-title .container {
     padding: 5px;
 }
-
-
-
-
-
 
 /*
 
@@ -1864,11 +1328,13 @@ div.boxed.white.admin-content {
 #main-outlet {
     padding: 1.5em;
 }
+
 /*
 .admin-interface .wrap {
     padding: 0 !important;
 }
 */
+
 .admin-main-nav {
     display: block !important;
     width: auto !important;
@@ -1994,8 +1460,6 @@ button.btn.btn-default.iframe-expand-btn.no-text:active {
     width: 1.5rem !important;
 }
 
-
-
 div.footnote-tooltip-content .iframe-expand-btn {
     position: absolute;
     padding: 5px;
@@ -2013,10 +1477,6 @@ div.footnote-tooltip-content .iframe-expand-icon {
     height: 1.2rem !important;
     width: 1.2rem !important;
 }
-
-
-
-
 
 .d-editor-preview {
     padding: 10px;
@@ -2085,13 +1545,11 @@ a:visited {
     cursor: pointer;
 }
 
-
 .btn-icon-text:active,
 .btn-icon-text:hover {
     color: #fff !important;
     background-color: #009a49 !important;
 }
-
 
 .nav-pills>li.active>a,
 .layouts-nav-button>li.active>a,
@@ -2242,7 +1700,6 @@ div.timeline-scrollarea {
     font-size: var(--font-up-1);
 }
 
-
 .topic-list-main-link a.title,
 .topic-list .main-link a.title,
 .latest-topic-list-item .main-link a.title,
@@ -2316,7 +1773,7 @@ sidebar.left .fixed {
 .d-editor-preview h6 {
     /* margin: 15px 0 10px; */
     margin: 0;
-padding-bottom: 10px;
+    padding-bottom: 10px;
 }
 
 .gap {
@@ -2376,6 +1833,7 @@ padding-bottom: 10px;
 .link-share-actions {
     padding: 5px 5px 7px;
 }
+
 /*
 .container.posts {
     justify-content: start;
@@ -2514,12 +1972,12 @@ button#new-create-topic.btn.btn-default.btn-icon-text svg.fa.d-icon-plus.svg-ico
         margin-top: 20px;
     }
     .topic-body {
-    width: 100% !important;
+        width: 100% !important;
     }
     .container.posts {
-    justify-content: unset;
-    grid-template-areas: "posts";
-    grid-template-columns: auto !important;
+        justify-content: unset;
+        grid-template-areas: "posts";
+        grid-template-columns: auto !important;
     }
 }
     
@@ -2535,9 +1993,6 @@ button#new-create-topic.btn.btn-default.btn-icon-text svg.fa.d-icon-plus.svg-ico
         grid-template-columns: calc(100% - 250px);
     }
 }
-
-
-
 
 /*
 .d-editor-button-bar {
@@ -2572,11 +2027,9 @@ display: none;
     margin-bottom: 0 !important;
 }
 
-
 /* HIDE ELEMENTS TO SIMPLIFY */
 
-
-
+/*
 
 .tag-no-any-just-pdf {
     .alert,
@@ -2595,23 +2048,20 @@ display: none;
         margin-bottom: 0 !important;
     }
     .wrap {
-    max-width: unset !important;
-    padding: 0 10px;
+        max-width: unset !important;
+        padding: 0 10px;
+    }   
+    .container.posts {
+        grid-template-columns: 100% !important;
+        margin-top: 0 !important;
     }
-    
-.container.posts {
-    grid-template-columns: 100% !important;
-    margin-top: 0 !important;
-}
-
-#topic-title {
-    display:none;
-}
-
-.topic-body .contents .cooked {
-    max-width: 100%;
-    padding: 0;
-}
+    #topic-title {
+        display:none;
+    }
+    .topic-body .contents .cooked {
+        max-width: 100%;
+        padding: 0;
+    }
 
     .topic-body {
         width: 100% !important;
@@ -2638,8 +2088,6 @@ display: none;
         z-index: 5;
     }
 }
-
-
 
 .tag-no-any-blank {
     .alert,
@@ -2661,12 +2109,10 @@ display: none;
     max-width: unset !important;
     padding: 0 10px;
     }
-
     .container.posts {
         grid-template-columns: none !important;
         margin-top: 40px !important;
     }
-
     #topic-title {
         position: fixed;
         width: 100%;
@@ -2674,7 +2120,6 @@ display: none;
         padding: 15px 10px 7px;
         background: #f5f2ef;
     }
-
     .topic-body {
         width: 100% !important;
         border-top: none;
@@ -2701,15 +2146,12 @@ display: none;
     }
 }
 
-
-
 .tag-no-any-blank-toc {
     .alert,
     .d-header,
     .topic-meta-data,
     aside.sidebar,
     .topic-category,
-    /* .topic-navigation, */
     .topic-above-footer-buttons-outlet.presence,
     #topic-footer-buttons,
     #post_1 nav.post-controls .actions button:not(.edit) {
@@ -2789,22 +2231,18 @@ display: none;
         grid-template-columns: unset !important;
         margin-top: 0 !important;
     }
-    
     #topic-title h1 {
         font-size: var(--font-up-2);
     }
-    
     .topic-body {
         width: 100% !important;
         box-shadow: none;
         background: none;
     }
-    
     .onscreen-post .row,
     .main-content.mobile.topic .topic-post>.boxed>.row {
         padding: 0;
     }
-    
     .topic-body h1:first-of-type {
         margin-top: -40px;
     }
@@ -2853,7 +2291,6 @@ display: none;
         grid-template-columns: unset !important;
         margin-top: 0 !important;
     }
-    
     #topic-title {
         position: sticky;
         margin-bottom: 0;
@@ -2864,22 +2301,18 @@ display: none;
         z-index: 10;
         backdrop-filter: blur(4px);
     }
-    
     #topic-title h1 {
         font-size: var(--font-up-2);
     }
-    
     .topic-body {
         width: 100% !important;
         box-shadow: none;
         background: none;
     }
-    
     .onscreen-post .row,
     .main-content.mobile.topic .topic-post>.boxed>.row {
         padding: 0;
     }
-    
     .topic-body h1:first-of-type {
         margin-top: -40px;
     }
@@ -2928,20 +2361,16 @@ display: none;
         grid-template-columns: unset !important;
         margin-top: 0 !important;
     }
-
     #topic-title h1 {
         font-size: var(--font-up-2);
     }
-    
     .topic-body {
         width: 100% !important;
 
     }
-    
     .onscreen-post .row {
         padding: 5px;
     }
-    
     .topic-body h1:first-of-type {
         margin-top: -40px;
     }
@@ -2960,7 +2389,6 @@ display: none;
         z-index: 5;
     }
 }
-
 
 .tag-blank-title-bg {
     .alert,
@@ -2990,7 +2418,6 @@ display: none;
         grid-template-columns: unset !important;
         margin-top: 0 !important;
     }
-    
     #topic-title {
         position: sticky;
         margin-bottom: 0;
@@ -3001,21 +2428,17 @@ display: none;
         z-index: 10;
         backdrop-filter: blur(4px);
     }
-    
     #topic-title h1 {
         font-size: var(--font-up-2);
     }
-    
     .topic-body {
         width: 100% !important;
         box-shadow: none;
     }
-    
     .onscreen-post .row,
     .main-content.mobile.topic .topic-post>.boxed>.row {
         padding: 0;
     }
-    
     .topic-body h1:first-of-type {
         margin-top: -40px;
     }
@@ -3034,8 +2457,6 @@ display: none;
         z-index: 5;
     }
 }
-
-
 
 .tag-blank-title-shadowbx {
     .alert,
@@ -3075,20 +2496,15 @@ display: none;
         z-index: 10;
         backdrop-filter: blur(4px);
     }
-    
     #topic-title h1 {
         font-size: var(--font-up-2);
     }
-    
     .topic-body {
         width: 100% !important;
-
     }
-    
     .onscreen-post .row {
         padding: 5px;
     }
-    
     .topic-body h1:first-of-type {
         margin-top: -40px;
     }
@@ -3110,7 +2526,6 @@ display: none;
 
 .tag-no-any-but-head {
     .alert,
-    /* .d-header, */
     .topic-meta-data,
     aside.sidebar,
     .topic-category,
@@ -3136,10 +2551,7 @@ display: none;
         margin-top: 40px !important;
     }
     #topic-title {
-        /* position: fixed; */
-        /* width: 100%; */
         top: 3.5em;
-        /* padding: 15px 10px 7px; */
         margin-bottom: -1em;
         padding: 0px 10px 0px;
         background: #f5f2ef;
@@ -3166,7 +2578,6 @@ display: none;
     }
 }
 
-
 .tag-no-any-but-toc {
     .alert,
     .d-header,
@@ -3185,21 +2596,17 @@ display: none;
         margin-bottom: 0 !important;
     }
     .wrap {
-    max-width: unset;
-    padding: 0 2vw;
+        max-width: unset;
+        padding: 0 2vw;
     }
     #main-outlet {
-    padding-top: 0;
+        padding-top: 0;
     }
     .container.posts {
         margin-top: 40px !important;
- 
         grid-template-columns: unset !important;
-        
     }
     #topic-title {
-        /* position: fixed; */
-        /* width: 100%; */
         top: 0;
         padding: 15px 10px 7px;
         background: #f5f2ef;
@@ -3228,7 +2635,6 @@ display: none;
 
 .tag-no-any-but-head-toc {
     .alert,
-    /* .d-header, */
     .topic-meta-data,
     aside.sidebar,
     #topic-title,
@@ -3244,21 +2650,17 @@ display: none;
         margin-bottom: 0 !important;
     }
     .wrap {
-    max-width: unset;
-    padding: 0 2vw;
+        max-width: unset;
+        padding: 0 2vw;
     }
     #main-outlet {
-    padding-top: 0;
+        padding-top: 0;
     }
     .container.posts {
         margin-top: 40px !important;
- 
         grid-template-columns: unset !important;
-        
     }
     #topic-title {
-        /* position: fixed; */
-        /* width: 100%; */
         top: 3.5em;
         padding: 15px 10px 7px;
         background: #f5f2ef;
@@ -3282,8 +2684,11 @@ display: none;
     }
 }
 
+*/
 
 /********************** REMOVE SPECIFIC THINGS FROM LAYOUT ***************/
+
+/*
 
 .tag-no-header {
     .d-header {
@@ -3314,7 +2719,6 @@ display: none;
         display:none;
     }
     .container.posts {
-        /* grid-template-columns: unset !important; */
         grid-template-columns: 100% !important;
     }
     .topic-body {
@@ -3338,7 +2742,6 @@ display: none;
     .post-links-container {
         display:none;
     }
-
 }
 
 .tag-no-topic-meta-data {
@@ -3381,9 +2784,11 @@ display: none;
     }
 }
 
+*/
 
 /* END HIDE ELEMENTS TO SIMPLIFY */
 
+/*
 
 .tag-incl-80-side-margins {
     .wrap {
@@ -3393,11 +2798,6 @@ display: none;
     .content-wrapper {
         display: block;
     }
-    /*
-    #main-outlet-wrapper {
-        width: 80% !important;
-    }
-    */
     .topic-body {
         width: 100% !important;
     }
@@ -3411,42 +2811,11 @@ display: none;
     }
 }
 
-
-
-/*
-.tag-incl-header {
-    .d-header {
-        display: flex !important;
-    }
-    #post_1 nav.post-controls .actions button.edit {
-        top: 3.5em;
-        z-index: 5;
-    }
-    #topic-title {
-        position: static;
-        width: unset;
-    }
-    .container.posts {
-        margin-top: 0 !important;
-    }
-}
-*/
-
-
-
 .tag-incl-toc {
     
         .topic-navigation {
         display: block !important;
     }
-
-/*
-.d-toc-timeline-visible .d-toc-main,
-.d-toc-timeline-visible .d-toc-mini {
-    display: contents;
-    }
-    */
-}
 
 .topic-above-footer-buttons-outlet.presence {
     min-height: 0;
@@ -3456,14 +2825,6 @@ display: none;
     margin: 0 !important;
 }
 
-
-/*
-body .main-content.topic .cooked img:not(.thumbnail) {
-    width: auto;
-}
 */
 
-/******* FIXES FOR SPECIFIC THEME COMPONENTS AND PLUGINS ************/
-.post-voting-answers-header {
-    width: unset;
-}
+
