@@ -12,7 +12,9 @@
     fill: #009a49 !important;
 }
 
-
+button#new-create-topic.btn {
+    background-color: #fff;
+}
 
 button#new-create-topic.btn .btn-icon-text:active,
 button#new-create-topic.btn .btn-icon-text:hover {
@@ -20,9 +22,7 @@ button#new-create-topic.btn .btn-icon-text:hover {
     background-color: #009a49 !important;
 }
 
-button#new-create-topic.btn {
-    background-color: #fff !important;
-}
+
 
 /*********** END FIXES FOR SPECIFIC THEME COMPONENTS AND PLUGINS ************/
 
