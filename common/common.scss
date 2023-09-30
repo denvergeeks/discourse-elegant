@@ -22,8 +22,10 @@ button#new-create-topic.btn .btn-icon-text:hover {
     background-color: #009a49 !important;
 }
 
-button#new-create-topic.btn svg.fa.d-icon.d-icon-plus.svg-icon.svg-node:active,
-button#new-create-topic.btn svg.fa.d-icon.d-icon-plus.svg-icon.svg-node:hover {
+
+
+button#new-create-topic.btn.btn-default.btn-icon-text svg.fa.d-icon.d-icon-plus.svg-icon.svg-node:active,
+button#new-create-topic.btn.btn-default.btn-icon-text svg.fa.d-icon.d-icon-plus.svg-icon.svg-node:hover {
     color: #fff !important;
     fill: #fff !important;
 }
