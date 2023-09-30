@@ -1,7 +1,14 @@
-/******* FIXES FOR SPECIFIC THEME COMPONENTS AND PLUGINS ************/
+/*********** START FIXES FOR SPECIFIC THEME COMPONENTS AND PLUGINS ************/
+
 .post-voting-answers-header {
     width: unset;
 }
+
+.floating-search-input .search-banner-inner.wrap .search-menu .widget-button.btn {
+    background: unset;
+}
+
+/*********** END FIXES FOR SPECIFIC THEME COMPONENTS AND PLUGINS ************/
 
 /*
 .d-header #site-logo {
