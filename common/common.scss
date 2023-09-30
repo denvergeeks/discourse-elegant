@@ -22,7 +22,8 @@ button#new-create-topic.btn .btn-icon-text:hover {
     background-color: #009a49 !important;
 }
 
-button#new-create-topic.btn .d-icon {
+button#new-create-topic.btn .d-icon:active,
+button#new-create-topic.btn .d-icon:hover {
     color: #fff !important;
 }
 
