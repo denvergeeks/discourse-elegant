@@ -115,6 +115,10 @@ button.sidebar-section-header:focus {
     padding: .2em .7em;
 }
 
+.hamburger-panel .revamped .sidebar-section-wrapper.sidebar-section .sidebar-section-header-wrapper {
+  border-bottom: 0;
+}
+
 .navigation-controls .select-kit-header {
     height: auto;
 }
