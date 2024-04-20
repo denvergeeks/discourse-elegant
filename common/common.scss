@@ -29,7 +29,8 @@ body.has-sidebar-page #main-outlet-wrapper {
 
 .sidebar-section-link-wrapper {
     /* padding: 0.3em var(--d-sidebar-row-horizontal-padding); */
-    padding: .3em var(--d-sidebar-row-horizontal-padding) .3em 0;
+    /* padding: .3em var(--d-sidebar-row-horizontal-padding) .3em 0; */
+    padding: .3em 0 .3em 0;
 }
 
 .sidebar-section-header {
