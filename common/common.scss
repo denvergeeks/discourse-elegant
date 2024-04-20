@@ -21,7 +21,7 @@ body.has-sidebar-page #main-outlet-wrapper {
 
 .sidebar-section-wrapper .sidebar-section-content {
     padding-left: 2em;
-    padding-right: 1em;
+    padding-right: var(--d-sidebar-row-horizontal-padding);
 }
 
 .sidebar-wrapper .sidebar-container {
