@@ -89,6 +89,10 @@ body.has-sidebar-page #main-outlet-wrapper {
     background: none;
 }
 
+.sidebar-section-wrapper .sidebar-section-header-caret {
+    margin-right: 0;
+}
+
 .sidebar-section-header-text {
     margin-right: .25em;
     margin-left: .3em;
