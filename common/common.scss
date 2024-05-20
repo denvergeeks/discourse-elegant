@@ -794,11 +794,12 @@ div.alert.alert-info.alert-too-few-topics {
     display: none !important
 }
 
-/* Messes with mobile
-.topic-avatar {
-    padding: 0 15px 0 0;
+
+.topic-avatar, post-avatar {
+    padding: 0;
+    background: #fff;
 }
-*/
+
 
 /* START ENABLE FOR NOOBISH-BLOG-THEME */
 /*
