@@ -822,6 +822,13 @@ td.posters.topic-list-data {
 .topic-meta-data {
     float: right;
 }
+
+.topic-meta-data {
+    justify-content: flex-end !important;
+    align-items: center;
+    padding: 0 0.5em !important;
+    margin-top: -0.7em;
+}
 */
 /* END ENABLE FOR NOOBISH-BLOG-THEME */
 
@@ -835,12 +842,7 @@ td.posters.topic-list-data {
 
 
 
-.topic-meta-data {
-    justify-content: flex-end !important;
-    align-items: center;
-    padding: 0 0.5em !important;
-    margin-top: -0.7em;
-}
+
 
 .post-actions {
     justify-content: flex-end !important;
