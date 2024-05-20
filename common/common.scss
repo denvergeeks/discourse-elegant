@@ -813,6 +813,10 @@ th.posters.topic-list-data,
 td.posters.topic-list-data {
     display: none !important
 }
+
+.topic-meta-data {
+    float: right;
+}
 */
 /* END ENABLE FOR NOOBISH-BLOG-THEME */
 
@@ -824,9 +828,7 @@ td.posters.topic-list-data {
     display: none;
 }
 
-.topic-meta-data {
-    float: right;
-}
+
 
 .topic-meta-data {
     justify-content: flex-end !important;
