@@ -1001,13 +1001,22 @@ div#display-modes a.active .d-icon,
     fill: #cb0000 !important;
 }
 
-.d-icon-bookmark,
+/*
+nav.post-controls .actions button.bookmarked .d-icon {
+    color: var(--tertiary);
+}
+*/
+
+/* .d-icon-bookmark, */
+nav.post-controls .actions button.bookmarked .d-icon
 .d-icon-discourse-bookmark-clock,
 .d-icon.d-icon-thumbtack.svg-icon,
 .d-icon.d-icon-thumbtack.svg-icon.unpinned {
     /* fill: #007cbb !important; */
     fill: #055BFF !important;
 }
+
+
 
 .d-icon.d-icon-thumbtack.svg-icon.unpinned {
     filter: drop-shadow(-1px -3px 2px rgba(0,0,0,0.4));
