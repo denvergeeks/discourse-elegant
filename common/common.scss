@@ -797,8 +797,9 @@ div.alert.alert-info.alert-too-few-topics {
 
 .topic-avatar,
 .post-avatar {
-    padding: 0;
+    padding: 4px 6px 4px 4px;
     background: #fff;
+    border-radius: 4px 0 0 4px;
 }
 
 
