@@ -72,6 +72,11 @@ body.has-sidebar-page #main-outlet-wrapper {
     box-shadow: none !important;
 }
 
+a.btn.no-text.btn-icon.btn.search-icon,
+button.btn.no-text.btn-icon.show-advanced-search {
+box-shadow: none !important;
+}
+
 .btn-flat.sidebar-more-section-links-details-summary:focus-within,
 .sidebar-more-section-links-details-summary.json-editor-btn-collapse:focus-within,
 .btn-flat.sidebar-more-section-links-details-summary:active,
