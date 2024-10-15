@@ -111,6 +111,9 @@ button.sidebar-section-header-collapsable {
     padding: .2em .7em;
 }
 
+.sidebar-section-wrapper .sidebar-section-header.sidebar-section-header-collapsable:active,
+.sidebar-section-wrapper .sidebar-section-header.sidebar-section-header-collapsable:hover,
+.sidebar-section-wrapper .sidebar-section-header.sidebar-section-header-collapsable:focus,
 button.sidebar-section-header:active,
 button.sidebar-section-header:hover,
 button.sidebar-section-header:focus {
