@@ -1417,13 +1417,15 @@ a:visited {
 .nav-pills>li>a.active,
 .layouts-nav-button>li>a.active {
     color: #fff !important;
-    background-color: #009a49 !important;
+    border: 1px solid #009a49 !important;
+    /* background-color: #009a49 !important; */
 }
 
 .nav-pills>li>a:hover,
 .layouts-nav-button>li>a:hover {
     color: #fff !important;
-    background-color: #009a49 !important;
+    border: 1px solid #009a49 !important;
+    /* background-color: #009a49 !important; */
 }
 
 .nav-pills>li>a:hover .svg-icon,
