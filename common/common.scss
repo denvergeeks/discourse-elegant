@@ -1026,6 +1026,14 @@ div#display-modes a.active .d-icon,
     fill: #cb0000 !important;
 }
 
+
+
+.timeline-controls .actions button.d-hover,
+.timeline-controls .actions button:focus,
+.timeline-controls .actions button:active,
+.timeline-footer-controls .actions button.d-hover,
+.timeline-footer-controls .actions button:focus,
+.timeline-footer-controls .actions button:active,
 nav.post-controls .actions button.d-hover,
 nav.post-controls .actions button:focus,
 nav.post-controls .actions button:active {
