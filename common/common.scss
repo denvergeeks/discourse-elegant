@@ -1053,6 +1053,11 @@ nav.post-controls .actions button.delete:active,
 nav.post-controls .actions button.delete:focus {
     background: var(--danger);
     color: var(--secondary);
+}
+
+nav.post-controls .actions button.delete.d-hover .d-icon,
+nav.post-controls .actions button.delete:active .d-icon,
+nav.post-controls .actions button.delete:focus .d-icon {
     fill: #fff;
 }
 
