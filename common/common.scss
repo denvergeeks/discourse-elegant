@@ -1243,6 +1243,7 @@ a.badge-notification.unread-posts {
     filter: drop-shadow(1px 4px 2px rgba(0,0,0,0.2));
 }
 
+/*
 .menu-panel.drop-down,
 div.search-header,
 .list-controls .combo-box .combo-box-header,
@@ -1265,6 +1266,7 @@ div.user-content,
     border-radius: 4px !important;
     box-shadow: 0 1.36px 8.896px #c4b59d, 0 0 1px !important;
 }
+*/
 
 .header-sidebar-toggle button{
     border-radius: none !important;
@@ -1922,8 +1924,18 @@ button#new-create-topic.btn.btn-default.btn-icon-text svg.fa.d-icon.d-icon-plus.
     fill: #fff !important;
 }
 
-/*********** END FIXES FOR SPECIFIC THEME COMPONENTS AND PLUGINS ************/
+.topic-notifications-button details{
+    outline: unset;
+    padding: unset;
+    background-color: unset;
+    border-radius: unset;
+}
 
+.print-button {
+    margin-right: .5em;
+}
+
+/*********** END FIXES FOR SPECIFIC THEME COMPONENTS AND PLUGINS ************/
 
 
 
