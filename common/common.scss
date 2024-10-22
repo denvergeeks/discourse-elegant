@@ -1015,13 +1015,22 @@ div#display-modes a.active .d-icon,
     fill: #d90000 !important;
 }
 
+/*
 .d-icon-flag {
     fill: #7e00ff !important;
 }
+*/
 
 .clear-search .d-icon,
 .clear-recent-searches .d-icon {
     fill: #cb0000 !important;
+}
+
+nav.post-controls .actions button.d-hover,
+nav.post-controls .actions button:focus,
+nav.post-controls .actions button:active {
+    outline: 1px dashed #009a49;
+    background: transparent;
 }
 
 /*
