@@ -1039,8 +1039,6 @@ nav.post-controls .actions button.bookmarked .d-icon,
     fill: #055BFF !important;
 }
 
-
-
 .d-icon.d-icon-thumbtack.svg-icon.unpinned {
     filter: drop-shadow(-1px -3px 2px rgba(0,0,0,0.4));
 }
@@ -1937,6 +1935,19 @@ div.container.posts .topic-notifications-button details{
 
 .print-button {
     margin-right: .5em;
+}
+
+.discourse-bookmark-button-wrapper {
+  margin-top: 0.5em;
+  transition: all 0.25s;
+  width: 150px;
+  .bookmark.bookmarked {
+    .d-icon-discourse-bookmark-clock,
+      .d-icon-bookmark{
+      color: var(--tertiary);
+        fill: #055BFF !important;
+    }
+  }
 }
 
 /*********** END FIXES FOR SPECIFIC THEME COMPONENTS AND PLUGINS ************/
