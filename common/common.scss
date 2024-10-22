@@ -1058,7 +1058,7 @@ nav.post-controls .actions button.delete:focus {
 nav.post-controls .actions button.delete.d-hover .d-icon,
 nav.post-controls .actions button.delete:active .d-icon,
 nav.post-controls .actions button.delete:focus .d-icon {
-    fill: #fff;
+    fill: #fff !important;
 }
 
 .d-icon.d-icon-thumbtack.svg-icon.unpinned {
@@ -1432,20 +1432,21 @@ a:visited {
 }
 */
 
+/*
 .nav-pills>li.active>a,
 .layouts-nav-button>li.active>a,
 .nav-pills>li>a.active,
 .layouts-nav-button>li>a.active {
     color: #fff !important;
     border: 1px solid #009a49 !important;
-    /* background-color: #009a49 !important; */
+
 }
 
 .nav-pills>li>a:hover,
 .layouts-nav-button>li>a:hover {
     color: #fff !important;
     border: 1px solid #009a49 !important;
-    /* background-color: #009a49 !important; */
+
 }
 
 .nav-pills>li>a:hover .svg-icon,
@@ -1455,6 +1456,7 @@ a:visited {
     fill: #fff !important;
     opacity: 1;
 }
+*/
 
 .select-kit .select-kit-header,
 .select-kit.multi-select .multi-select-header .formatted-selection {
