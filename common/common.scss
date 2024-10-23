@@ -914,6 +914,9 @@ div.cooked p {
 .topic-body {
     background: #fff;
     border-radius: 0 8px 8px 8px;
+    border-right: 1px solid var(--primary-low);
+    border-bottom: 1px solid var(--primary-low);
+    border-left: 1px solid var(--primary-low);
 }
 
 .conversation-detail__header[_ngcontent-otter-web-c270] {
