@@ -919,6 +919,16 @@ div.cooked p {
     /* border-left: 1px solid var(--primary-low); */
 }
 
+#post_1 .topic-body {
+    /* border-top: 1px solid rgba(0, 0, 0, 0); */
+    border: none;
+}
+
+#post_1 .topic-avatar {
+    /* border-top: 1px solid rgba(0, 0, 0, 0); */
+    border: none;
+}
+
 .conversation-detail__header[_ngcontent-otter-web-c270] {
     position: relative;
     margin-top: -30px;
