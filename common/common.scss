@@ -1041,15 +1041,21 @@ div#display-modes a.active .d-icon,
 div.timeline-footer-controls .topic-notifications-button:hover,
 div.timeline-footer-controls .topic-notifications-button:focus,
 div.timeline-footer-controls .topic-notifications-button:active,
-div.timeline-controls button:hover,
-div.timeline-controls button:focus,
-div.timeline-controls button:active,
+
+div.timeline-buttons-desktop widget-button:hover,
+div.timeline-buttons-desktop widget-button:focus,
+div.timeline-buttons-desktop widget-button:active,
+
 div.timeline-footer-controls button:hover,
 div.timeline-footer-controls button:focus,
 div.timeline-footer-controls button:active,
+
 nav.post-controls .actions button.d-hover,
 nav.post-controls .actions button:focus,
-nav.post-controls .actions button:active {
+nav.post-controls .actions button:active,
+div.timeline-controls button:hover,
+div.timeline-controls button:focus,
+div.timeline-controls button:active {
     outline: 1px dashed #009a49 !important;
     background: transparent !important;
 }
