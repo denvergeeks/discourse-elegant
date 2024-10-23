@@ -911,6 +911,7 @@ div.cooked p {
 
 .topic-body {
     background: #fff;
+    border-radius: 0 8px 8px 8px;
 }
 
 .conversation-detail__header[_ngcontent-otter-web-c270] {
@@ -1656,9 +1657,9 @@ sidebar.left .fixed {
 .topic-body {
     /* width: calc(800px + (11px * 2)); */
     /* margin: 0 auto; */
-    background-color: #fff;
+    /* background-color: #fff; */
     /* padding: 12px 11px 0 11px; */
-    border-radius: 4px;
+    /* border-radius: 4px; */
     /* box-shadow: 0 1.36px 8.896px #c4b59d, 0 0 1px; */
 }
 
