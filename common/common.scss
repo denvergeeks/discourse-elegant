@@ -1026,14 +1026,24 @@ div#display-modes a.active .d-icon,
     fill: #cb0000 !important;
 }
 
+/*
+.timeline-container .topic-timeline .topic-admin-menu-button .btn,
+.timeline-container .topic-timeline .topic-admin-menu-button .d-modal.json-schema-editor-modal .je-ready .json-editor-btn-add,
+.d-modal.json-schema-editor-modal .je-ready .timeline-container .topic-timeline .topic-admin-menu-button .json-editor-btn-add,
+.timeline-container .topic-timeline .topic-admin-menu-button .d-modal.json-schema-editor-modal .je-ready button,
+.d-modal.json-schema-editor-modal .je-ready .timeline-container .topic-timeline .topic-admin-menu-button button,
 
 
-.timeline-controls .actions button.d-hover,
-.timeline-controls .actions button:focus,
-.timeline-controls .actions button:active,
-.timeline-footer-controls .actions button.d-hover,
-.timeline-footer-controls .actions button:focus,
-.timeline-footer-controls .actions button:active,
+.d-modal.json-schema-editor-modal .je-ready button.d-hover,
+.d-modal.json-schema-editor-modal .je-ready .json-editor-btn-add button:focus,
+*/
+
+.timeline-controls button.d-hover,
+.timeline-controls button:focus,
+.timeline-controls button:active,
+.timeline-footer-controls  button.d-hover,
+.timeline-footer-controls button:focus,
+.timeline-footer-controls button:active,
 nav.post-controls .actions button.d-hover,
 nav.post-controls .actions button:focus,
 nav.post-controls .actions button:active {
