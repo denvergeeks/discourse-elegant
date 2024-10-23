@@ -824,6 +824,8 @@ div.alert.alert-info.alert-too-few-topics {
     padding: 6px 0 6px 6px;
     background: #fff;
     border-radius: 8px 0 0 8px;
+    border-left: 1px solid var(--primary-low);
+    border-bottom: 1px solid var(--primary-low);
 }
 
 .time-gap.small-action .topic-avatar {
