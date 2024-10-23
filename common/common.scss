@@ -1152,15 +1152,15 @@ a.badge-wrapper.bullet,
     padding: 0 12px 0 0;
 }
 
+.d-header-wrap {
+    box-shadow: 0 2px 5px 0 rgba(196, 181, 157, .4901960784), 0 2px 8px 0 rgba(196, 181, 157, .4901960784);
+}
+
 .d-header {
     display: flex !important;
     justify-content: space-between !important;
     background-color: #d4d4e1;
     /* height: 5em; */
-}
-
-.d-header-wrap {
-    box-shadow: 0 13.36px 8.896px #c4b59d7d, 0 -2px 1px #222;
 }
 
 .d-header .title {
