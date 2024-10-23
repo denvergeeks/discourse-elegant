@@ -829,6 +829,11 @@ div.alert.alert-info.alert-too-few-topics {
     border-top: none;
 }
 
+.topic-post.sticky-avatar>article>.row>.topic-avatar {
+    position: sticky;
+    top: calc(var(--header-offset) + 2em);
+    margin-bottom: 25px;
+}
 
 /* START ENABLE FOR NOOBISH-BLOG-THEME */
 /*
