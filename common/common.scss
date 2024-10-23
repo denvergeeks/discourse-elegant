@@ -594,8 +594,6 @@ d-header .sign-up-button {
     border-top: 0;
     padding: 0;
     margin-bottom: 1em;
-    border-radius: 0 8px 8px;
-    border: 1px solid var(--primary-low);
 }
 
 .topic-post article#post_1 {
@@ -916,7 +914,7 @@ div.cooked p {
     border-radius: 0 8px 8px 8px;
     border-right: 1px solid var(--primary-low);
     border-bottom: 1px solid var(--primary-low);
-    border-left: 1px solid var(--primary-low);
+    /* border-left: 1px solid var(--primary-low); */
 }
 
 .conversation-detail__header[_ngcontent-otter-web-c270] {
