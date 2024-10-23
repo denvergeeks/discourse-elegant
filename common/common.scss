@@ -594,12 +594,14 @@ d-header .sign-up-button {
     border-top: 0;
     padding: 0;
     margin-bottom: 1em;
+    border-radius: 0 8px 8px;
 }
 
 .topic-post article#post_1 {
     padding: 0;
     margin-bottom: 2em;
     background-color: #fff;
+        border-radius: 10px;
 }
 
 nav.post-controls {
@@ -821,7 +823,7 @@ div.alert.alert-info.alert-too-few-topics {
 .topic-avatar {
     padding: 6px 0 6px 6px;
     background: #fff;
-    border-radius: 4px 0 0 4px;
+    border-radius: 8px 0 0 8px;
 }
 
 .time-gap.small-action .topic-avatar {
