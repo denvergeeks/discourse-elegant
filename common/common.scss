@@ -1032,11 +1032,12 @@ div#display-modes a.active .d-icon,
 .d-modal.json-schema-editor-modal .je-ready .timeline-container .topic-timeline .topic-admin-menu-button .json-editor-btn-add,
 .timeline-container .topic-timeline .topic-admin-menu-button .d-modal.json-schema-editor-modal .je-ready button,
 .d-modal.json-schema-editor-modal .je-ready .timeline-container .topic-timeline .topic-admin-menu-button button,
-
-
-.d-modal.json-schema-editor-modal .je-ready button.d-hover,
-.d-modal.json-schema-editor-modal .je-ready .json-editor-btn-add button:focus,
 */
+
+.timeline-controls .d-modal.json-schema-editor-modal .je-ready button.d-hover,
+.timeline-controls .d-modal.json-schema-editor-modal .je-ready .json-editor-btn-add button:focus,
+.timeline-controls .d-modal.json-schema-editor-modal .je-ready .json-editor-btn-add button:active,
+
 
 .timeline-controls button.d-hover,
 .timeline-controls button:focus,
