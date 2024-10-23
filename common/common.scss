@@ -251,21 +251,21 @@ li.custom-header-link.with-url {
 */
 
 #post_1 nav.post-controls .actions button.edit {
-    position: fixed;
-    top: 80px;
-    right: 1px;
+    position: fixed !important;
+    top: 80px !important;
+    right: 1px !important;
     background: transparent !important;
-    box-shadow: none;
-    padding: 30px 10px 30px 20px;
-    margin: 0 0 0 0;
+    box-shadow: none !important;
+    padding: 30px 10px 30px 20px !important;
+    margin: 0 0 0 0 !important;
 }
 
 #post_1 nav.post-controls .actions button.edit .svg-icon {
-    height: 2em;
-    width: 2em;
+    height: 2em !important;
+    width: 2em !important;
     fill: #009a494f !important;
-    transform: rotate(-0.125turn);
-    filter: none;
+    transform: rotate(-0.125turn) !important;
+    filter: none !important;
 }
 
 
