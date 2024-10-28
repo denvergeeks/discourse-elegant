@@ -1940,9 +1940,11 @@ button#new-create-topic.btn.btn-default.btn-icon-text svg.fa.d-icon-plus.svg-ico
         width: auto;
         margin-top: 20px;
     }
+    /*
     .topic-body {
         width: 100% !important;
     }
+    */
     .container.posts {
         justify-content: unset;
         grid-template-areas: "posts";
