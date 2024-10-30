@@ -560,11 +560,17 @@ svg.fa.d-icon.d-icon-bookmark.svg-icon.svg-node {
     padding-top: 2em;
     padding-bottom: 2em;
     */
-    padding: 2em;
+    /* padding: 2em; */
     max-width: 100%;
-    margin: 1em;
+    /* margin: 1em; */
     border: 1px dashed green;
 }
+
+.topic-map__contents {
+    padding-right: calc(var(--topic-body-width-padding) + var(--topic-avatar-width));
+}
+
+
 
 .featherlight .featherlight-close-icon {
   top: -15px;
