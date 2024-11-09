@@ -2,7 +2,8 @@
     position: relative;
     max-width: calc(100% - 66px);
     margin-bottom: 30px;
-    border-left: 1px dashed var(--primary-low);
+    border: 1px dashed var(--primary-low);
+        border-radius: 0 8px 8px 8px;
     max-width: calc(90% - 66px);
     margin: 0 auto;
 }
@@ -10,9 +11,11 @@
 .embedded-posts.bottom>div .row .topic-body {
     border-top: none;
     padding-bottom: 2.5em;
+    /*
     border-top: 1px dashed var(--primary-low);
     border-right: 1px dashed var(--primary-low);
     border-bottom: 1px dashed var(--primary-low);
+    */
 }
 
 .embedded-posts.bottom>div .row .topic-avatar {
