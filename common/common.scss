@@ -9,13 +9,8 @@
 }
 
 .embedded-posts.bottom>div .row .topic-body {
-    border-top: none;
+    border: none;
     padding-bottom: 2.5em;
-    /*
-    border-top: 1px dashed var(--primary-low);
-    border-right: 1px dashed var(--primary-low);
-    border-bottom: 1px dashed var(--primary-low);
-    */
 }
 
 .embedded-posts.bottom>div .row .topic-avatar {
