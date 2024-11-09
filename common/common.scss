@@ -7,6 +7,14 @@
     margin: 0 auto;
 }
 
+.embedded-posts.bottom>div .row .topic-body {
+    border-top: none;
+    padding-bottom: 2.5em;
+    border-top: 1px solid red;
+    border-right: 1px solid red;
+    border-bottom: 1px solid red;
+}
+
 /*
 .d-header #site-logo {
     border-radius: 4px !important;
