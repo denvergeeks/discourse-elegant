@@ -2,7 +2,7 @@
     position: relative;
     max-width: calc(100% - 66px);
     margin-bottom: 30px;
-    border: none;
+    border-left: 1px dashed var(--primary-low);
     max-width: calc(90% - 66px);
     margin: 0 auto;
 }
