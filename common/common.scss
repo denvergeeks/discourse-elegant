@@ -1,4 +1,11 @@
-
+.embedded-posts.bottom {
+    position: relative;
+    max-width: calc(100% - 66px);
+    margin-bottom: 30px;
+    border: none;
+    max-width: calc(90% - 66px);
+    margin: 0 auto;
+}
 
 /*
 .d-header #site-logo {
