@@ -1,3 +1,12 @@
+
+.embedded-posts.bottom>div .row .topic-avatar {
+    border: none;
+}
+
+.embedded-posts .arrow {
+    color: var(--tertiary) !important;
+}
+
 .embedded-posts.bottom {
     max-width: calc(95% - 66px);
     margin: 0 auto;
@@ -27,9 +36,6 @@
     padding-bottom: 2.5em;
 }
 
-.embedded-posts.bottom>div .row .topic-avatar {
-    border: none;
-}
 
 /*
 .embedded-posts.bottom>div .row {
