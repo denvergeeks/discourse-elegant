@@ -1,8 +1,17 @@
 
-.embedded-posts.bottom>div .row .topic-avatar {
-    background-color: aliceblue;
+.embedded-posts.bottom>div .row {
+    padding-bottom: .7em;
+
 }
 
+/*
+.embedded-posts.bottom>div .row .topic-body {
+    border: none;
+    padding-bottom: 2.5em;
+}
+*/
+
+.embedded-posts.bottom>div .row .topic-avatar,
 .embedded-posts.bottom>div .row .topic-body {
     background-color: aliceblue;
 }
@@ -15,10 +24,6 @@
     max-width: calc(95% - 66px);
     margin: 0 auto;
     padding-bottom: 15px;
-}
-
-.embedded-posts .reply .row {
-    margin-bottom: .7em;
 }
 
 /*
@@ -36,15 +41,6 @@
 }
 */
 
-.embedded-posts.bottom>div .row {
-    padding-bottom: .5em;
-    margin-bottom: 10px;
-}
-
-.embedded-posts.bottom>div .row .topic-body {
-    border: none;
-    padding-bottom: 2.5em;
-}
 
 
 /*
