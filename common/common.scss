@@ -35,8 +35,8 @@
     margin-bottom: 0;
 }
 
-nav.post-controls .show-replies {
-    font-size: var(--font-down-1);
+.embedded-posts.bottom>div:last-of-type {
+    margin-bottom: 0;
 }
 
 /*
