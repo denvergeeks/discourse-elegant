@@ -21,6 +21,10 @@ nav.post-controls .show-replies[aria-expanded=true]:focus {
     color: var(--tertiary) !important;
 }
 
+.embedded-posts.bottom .collapse-up {
+    padding: 0;
+}
+
 nav.post-controls .show-replies .svg-icon,
 .embedded-posts.bottom .collapse-up .d-icon {
     height: 2em !important;
