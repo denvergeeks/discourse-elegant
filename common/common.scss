@@ -872,8 +872,11 @@ div.alert.alert-info.alert-too-few-topics {
 }
 
 .time-gap.small-action .topic-avatar {
+    padding: 6px 0 6px 6px;
     background: none;
-    border-top: none;
+    border-left: none !important;
+    border-bottom: none !important;
+    border-top: none !important;
 }
 
 .topic-post.sticky-avatar>article>.row>.topic-avatar {
