@@ -866,9 +866,9 @@ div.alert.alert-info.alert-too-few-topics {
     padding: 6px 0 6px 6px;
     background: #fff;
     border-radius: 8px 0 0 8px;
-    border-left: 1px solid var(--primary-low);
-    border-bottom: 1px solid var(--primary-low);
-    border-top: 1px solid var(--primary-low);
+    border-left: 1px solid var(--primary-low) !important;
+    border-bottom: 1px solid var(--primary-low) !important;
+    border-top: 1px solid var(--primary-low) !important;
 }
 
 .time-gap.small-action .topic-avatar {
@@ -957,9 +957,9 @@ div.cooked p {
 .topic-body {
     background: #fff;
     border-radius: 0 8px 8px 8px;
-    border-right: 1px solid var(--primary-low);
-    border-bottom: 1px solid var(--primary-low);
-    border-top: 1px solid var(--primary-low);
+    border-right: 1px solid var(--primary-low) !important;
+    border-bottom: 1px solid var(--primary-low) !important;
+    border-top: 1px solid var(--primary-low) !important;
     padding: 1em 1.5em .25em;
     /* border-left: 1px solid var(--primary-low); */
 }
