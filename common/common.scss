@@ -17,6 +17,11 @@
     padding-bottom: 15px;
 }
 
+.embedded-posts .reply .row {
+    margin-bottom: .7em;
+}
+
+/*
 .embedded-posts .reply:first-of-type .row {
     border-top: none;
     border: 1px dashed var(--primary-low);
@@ -29,6 +34,7 @@
     border-radius: 8px 8px 8px 8px;
     margin-bottom: .7em;
 }
+*/
 
 .embedded-posts.bottom>div .row {
     padding-bottom: .5em;
