@@ -3,6 +3,7 @@
 .embedded-posts.bottom>div .row .topic-avatar,
 .embedded-posts.bottom>div .row .topic-body {
     background-color: aliceblue;
+    
 }
 
 .embedded-posts .arrow {
@@ -867,6 +868,7 @@ div.alert.alert-info.alert-too-few-topics {
     border-radius: 8px 0 0 8px;
     border-left: 1px solid var(--primary-low);
     border-bottom: 1px solid var(--primary-low);
+    border-top: 1px solid var(--primary-low);
 }
 
 .time-gap.small-action .topic-avatar {
@@ -957,6 +959,7 @@ div.cooked p {
     border-radius: 0 8px 8px 8px;
     border-right: 1px solid var(--primary-low);
     border-bottom: 1px solid var(--primary-low);
+    border-top: 1px solid var(--primary-low);
     padding: 1em 1.5em .25em;
     /* border-left: 1px solid var(--primary-low); */
 }
