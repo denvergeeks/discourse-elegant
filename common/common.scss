@@ -1,11 +1,19 @@
-nav.post-controls .show-replies .svg-icon {
-    height: 2em !important;
-    width: 2em !important;
+nav.post-controls .show-replies,
+nav.post-controls .show-replies[aria-expanded=true] {
+    padding: 3px 5px 2px 10px;
 }
 
+nav.post-controls .show-replies,
+nav.post-controls .show-replies[aria-expanded=true],
 .embedded-posts.bottom>div .row .topic-avatar,
 .embedded-posts.bottom>div .row .topic-body {
     background-color: aliceblue;
+}
+
+nav.post-controls .show-replies .svg-icon,
+.embedded-posts.bottom .collapse-up .d-icon {
+    height: 2em !important;
+    width: 2em !important;
 }
 
 .embedded-posts.bottom>div .row .topic-avatar {
