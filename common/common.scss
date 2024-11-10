@@ -1331,7 +1331,9 @@ div.user-content,
 }
 
 div.boxed.white.admin-content {
-    padding: 2em !important;
+    /* padding: 2em !important; */
+    padding: 0 !important;
+    margin: 0 !important;
 }
 
 .loading-container {
@@ -1366,12 +1368,12 @@ div.boxed.white.admin-content {
 .admin-main-nav .nav-pills,
 .admin-controls .nav-pills,
 .admin-contents ul.navigation {
-    margin: 1em 1em 0.5em !important;
+    /* margin: 1em 1em 0.5em !important; */
     padding: 0 !important;
     width: auto !important;
     white-space: normal !important;
     flex-wrap: wrap !important;
-    overflow-x: unset !important;
+    /* overflow-x: unset !important; */
 }
 
 .admin-main-nav .nav-pills>li,
