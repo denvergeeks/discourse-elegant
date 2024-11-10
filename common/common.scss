@@ -14,7 +14,7 @@
     border-top: none;
     border: 1px dashed var(--primary-low);
     border-radius: 8px 8px 8px 8px;
-    margin-bottom: 1em;
+    margin-bottom: .7em;
 }
 
 .embedded-posts.bottom>div .row {
@@ -31,6 +31,7 @@
     border: none;
 }
 
+/*
 .embedded-posts.bottom>div .row {
     border: 1px dashed var(--primary-low);
     padding-bottom: .5em;
@@ -40,7 +41,7 @@
 .embedded-posts.bottom>div:last-of-type {
     margin-bottom: 0;
 }
-
+*/
 /*
 .d-header #site-logo {
     border-radius: 4px !important;
