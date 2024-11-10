@@ -1369,19 +1369,23 @@ div.boxed.white.admin-content {
 .admin-controls .nav-pills,
 .admin-contents ul.navigation {
     /* margin: 1em 1em 0.5em !important; */
+    /*
     padding: 0 !important;
     width: auto !important;
     white-space: normal !important;
     flex-wrap: wrap !important;
+    */
     /* overflow-x: unset !important; */
 }
 
+/*
 .admin-main-nav .nav-pills>li,
 .admin-controls .nav-pills>li, 
 .admin-contents .nav-pills>li {
     margin-right: .5em !important;
     margin-bottom: .5em !important;
 }
+*/
 
 .archetype-private_message .topic-map {
     margin: 1em 1em 2em;
