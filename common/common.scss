@@ -14,11 +14,14 @@ nav.post-controls .show-replies[aria-expanded=true],
 
 nav.post-controls .show-replies:hover,
 nav.post-controls .show-replies:focus,
+nav.post-controls .show-replies:active,
 nav.post-controls .show-replies[aria-expanded=true],
 nav.post-controls .show-replies[aria-expanded=true]:hover,
-nav.post-controls .show-replies[aria-expanded=true]:focus {
+nav.post-controls .show-replies[aria-expanded=true]:focus,
+nav.post-controls .show-replies[aria-expanded=true]:active {
     background-color: aliceblue;
     color: var(--tertiary) !important;
+    outline: 1px dashed #009a49 !important;
 }
 
 .embedded-posts.bottom .collapse-up {
