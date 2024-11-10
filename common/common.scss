@@ -10,6 +10,13 @@
     border-radius: 8px 8px 8px 8px;
 }
 
+.embedded-posts .reply .row {
+    border-top: none;
+    border: 1px dashed var(--primary-low);
+    border-radius: 8px 8px 8px 8px;
+    margin-bottom: 1em;
+}
+
 .embedded-posts.bottom>div .row {
     padding-bottom: .5em;
     margin-bottom: 10px;
@@ -22,7 +29,6 @@
 
 .embedded-posts.bottom>div .row .topic-avatar {
     border: none;
-
 }
 
 .embedded-posts.bottom>div .row {
