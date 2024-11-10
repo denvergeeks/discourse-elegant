@@ -3,6 +3,8 @@ nav.post-controls .show-replies[aria-expanded=true] {
     padding: 3px 5px 2px 10px;
 }
 
+
+
 nav.post-controls .show-replies,
 nav.post-controls .show-replies[aria-expanded=true],
 .embedded-posts.bottom>div .row .topic-avatar,
@@ -11,7 +13,8 @@ nav.post-controls .show-replies[aria-expanded=true],
 }
 
 nav.post-controls .show-replies:hover,
-nav.post-controls .show-replies:focus, 
+nav.post-controls .show-replies:focus,
+nav.post-controls .show-replies[aria-expanded=true],
 nav.post-controls .show-replies[aria-expanded=true]:hover,
 nav.post-controls .show-replies[aria-expanded=true]:focus {
     background-color: aliceblue;
