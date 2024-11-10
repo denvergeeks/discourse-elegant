@@ -3,7 +3,10 @@
 .embedded-posts.bottom>div .row .topic-avatar,
 .embedded-posts.bottom>div .row .topic-body {
     background-color: aliceblue;
-    
+}
+
+.embedded-posts.bottom>div .row .topic-avatar {
+    padding: 6px 0 6px 6px;
 }
 
 .embedded-posts .arrow {
