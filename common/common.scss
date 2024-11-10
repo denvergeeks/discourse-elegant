@@ -10,6 +10,8 @@ nav.post-controls .show-replies[aria-expanded=true],
     background-color: aliceblue;
 }
 
+nav.post-controls .show-replies:hover,
+nav.post-controls .show-replies:focus, 
 nav.post-controls .show-replies[aria-expanded=true]:hover,
 nav.post-controls .show-replies[aria-expanded=true]:focus {
     background-color: aliceblue;
