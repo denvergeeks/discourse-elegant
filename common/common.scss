@@ -1346,25 +1346,13 @@ div.details,
 div.user-content,
 .boxed.white,
 */
-.loading-container {
-    margin: 0 1em 1em;
-    padding: 0 1em;
-}
-
-div.boxed.white.admin-content {
-    /* padding: 2em !important; */
-    /* padding: 0 !important; */
-    margin: 0 !important;
-}
-
-
-
 
 .loading-container {
     margin: 0;
     padding: 0;
 }
 
+div.boxed.white.admin-content,
 .user-main .about .details,
 .user-main .user-content {
     padding: .8em;
