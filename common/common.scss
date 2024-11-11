@@ -1417,6 +1417,11 @@ padding-left: .3em;
     padding: 0 var(--space-4);
 }
 */
+
+.admin-controls .nav-pills {
+    flex-wrap: wrap;
+}
+
 /*
 .archetype-private_message .topic-map {
     margin: 1em 1em 2em;
