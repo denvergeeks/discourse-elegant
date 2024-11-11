@@ -623,7 +623,7 @@ svg.fa.d-icon.d-icon-bookmark.svg-icon.svg-node {
     padding-left: calc(var(--topic-body-width-padding) + var(--topic-avatar-width));
     padding-right: calc(var(--topic-body-width-padding) + var(--topic-avatar-width));
     */
-    padding: 0;
+    padding: 0 10px 0 0;
     margin: 1em;
     border: 1px dashed green;
 }
