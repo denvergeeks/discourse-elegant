@@ -2048,22 +2048,26 @@ button#new-create-topic.btn.btn-default.btn-icon-text svg.fa.d-icon-plus.svg-ico
 }
 
 @media screen and (max-width: 924.999px) {
+    /*
     .container.posts .topic-navigation {
         grid-area: posts;
         grid-row: 2;
         width: auto;
         margin-top: 20px;
     }
+    */
     /*
     .topic-body {
         width: 100% !important;
     }
     */
+    /*
     .container.posts {
         justify-content: unset;
         grid-template-areas: "posts";
         grid-template-columns: auto !important;
     }
+    */
 }
     
 @media screen and (min-width: 925px) {
