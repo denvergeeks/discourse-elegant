@@ -72,9 +72,13 @@ body.has-sidebar-page #main-outlet-wrapper {
     background: transparent;
 }
 
+.sidebar-wrapper .sidebar-sections {
+    padding-right: 0;
+}
+
 .sidebar-section-wrapper .sidebar-section-content {
     padding-left: 2em;
-    padding-right: var(--d-sidebar-row-horizontal-padding);
+    /* padding-right: var(--d-sidebar-row-horizontal-padding); */
 }
 
 .sidebar-wrapper .sidebar-container {
