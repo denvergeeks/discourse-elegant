@@ -21,7 +21,8 @@ nav.post-controls .show-replies:active,
 nav.post-controls .show-replies[aria-expanded=true],
 nav.post-controls .show-replies[aria-expanded=true]:hover,
 nav.post-controls .show-replies[aria-expanded=true]:focus,
-nav.post-controls .show-replies[aria-expanded=true]:active {
+nav.post-controls .show-replies[aria-expanded=true]:active,
+.embedded-posts.bottom .collapse-up {
     background-color: aliceblue;
     color: var(--tertiary) !important;
     outline: 1px dashed #009a49 !important;
@@ -43,6 +44,11 @@ nav.post-controls .show-replies .svg-icon,
 
 .embedded-posts .arrow {
     color: var(--tertiary) !important;
+}
+
+.embedded-posts.bottom>div .row .topic-body .topic-meta-data .post-link-arrow {
+    bottom: .5em;
+    right: 1.5em;
 }
 
 .embedded-posts.bottom {
@@ -990,7 +996,6 @@ div.content {
     width: fit-content;
     border-radius: 10px;
 }
-
 */
 
 
