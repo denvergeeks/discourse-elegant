@@ -432,7 +432,10 @@ details.open>summary:first-of-type ~ * {
     background: color-mix(in srgb, var(--tertiary) 8%, transparent);
 }
 
-
+details[open]>summary:last-of-type~*,
+details.open>summary:last-of-type~* {
+    padding-bottom: 20px;
+}
 
 details[open] > summary:first-of-type iframe {
     margin: 20px;
