@@ -392,13 +392,8 @@ div.container.posts details.open {
 
 div.container.posts details[open],
 div.container.posts details.open {
-    padding-bottom:20px;
+    padding-bottom:1px;
 }
-
-
-
-
-
 
 .d-editor-preview details summary::before,
 .topic-body details summary::before {
