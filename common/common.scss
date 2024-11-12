@@ -382,6 +382,7 @@ div.container.posts summary:before {
     content: "\25BA";
     margin-right: 0;
     padding-right: 10px;
+    padding-left: 15px;
     font-size: large;
 }
 
@@ -406,6 +407,12 @@ details.open>summary:first-of-type ~ * {
 
 details[open] > summary:first-of-type iframe {
     margin: 20px;
+}
+
+.d-editor-preview details[open]>summary,
+.topic-body details[open]>summary {
+    border-bottom: .25em solid var(--secondary);
+    background: var(--primary-very-low);
 }
 
 details button.iframe-expand-btn {
