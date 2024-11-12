@@ -358,12 +358,9 @@ hr {
 }
 
 div.container.posts details {
-    outline: 3px solid #adadd1;
+    /* outline: 3px solid #adadd1; */
     padding: 0;
-   /* background-color: #e7e5e9a8; */
     border-radius: 3px;
-
-    /* background-color: #00adff12; */
 }
 
 div.container.posts details[open]>summary:first-of-type ~ *,
