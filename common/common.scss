@@ -363,12 +363,6 @@ div.container.posts details {
     border-radius: 3px;
 }
 
-div.container.posts details[open]>summary:first-of-type ~ *,
-div.container.posts details.open>summary:first-of-type ~ * {
-    margin-bottom: 10px;
-        transform: translate(0, -20px);
-}
-
 .topic-body .cooked details,
 details .d-editor-preview,
 details.details__boxed {
