@@ -405,6 +405,12 @@ details.open>summary:first-of-type ~ * {
     margin: 20px;
 }
 
+.d-editor-preview details[open]>summary,
+.topic-body details[open]>summary {
+    border-bottom: .25em solid var(--secondary);
+    background: color-mix(in srgb, var(--tertiary) 16%, transparent);
+}
+
 details[open] > summary:first-of-type iframe {
     margin: 20px;
 }
