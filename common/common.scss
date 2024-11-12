@@ -372,7 +372,9 @@ div.container.posts details.open>summary:first-of-type ~ * {
         transform: translate(0, -20px);
 }
 
-
+.topic-body .cooked details,
+details .d-editor-preview,
+details.details__boxed,
 .topic-body .cooked details:not([open]):hover,
 .topic-body .cooked details:not([open]):focus,
 .topic-body .cooked details:not([open]):focus-within,
@@ -382,7 +384,6 @@ details .d-editor-preview:not([open]):focus-within,
 details.details__boxed:not([open]):hover,
 details.details__boxed:not([open]):focus,
 details.details__boxed:not([open]):focus-within,
-
 div.container.posts details[open],
 div.container.posts details.open {
     /* padding:20px; */
