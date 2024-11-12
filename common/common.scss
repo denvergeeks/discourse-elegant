@@ -378,7 +378,11 @@ div.container.posts details.open {
   /*  margin-bottom: -25px; */
 }
 
-div.container.posts summary:before {
+
+.d-editor-preview details summary::before,
+.topic-body details summary::before {
+    color: var(--tertiary);
+    filter: drop-shadow(1px 4px 2px rgba(0,0,0,0.4));
     content: "\25BA";
     margin-right: 0;
     padding-right: 10px;
@@ -410,6 +414,8 @@ details.open>summary:first-of-type ~ * {
     border-bottom: .25em solid var(--secondary);
     background: color-mix(in srgb, var(--tertiary) 16%, transparent);
 }
+
+
 
 details[open] > summary:first-of-type iframe {
     margin: 20px;
@@ -1469,10 +1475,6 @@ padding-left: .3em;
 
 [class*="archetype-"] {
     --below-topic-margin: 1rem;
-}
-
-summary:before {
-    filter: drop-shadow(1px 4px 2px rgba(0,0,0,0.4));
 }
 
 .docs-browse .docs-topic-list .topic-list-header .topic-list-data[role="button"],
