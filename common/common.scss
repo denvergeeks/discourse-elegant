@@ -1814,9 +1814,15 @@ div.timeline-scrollarea {
     position: unset;
 }
 
+/*
 .topic-list {
     background-color: #fff;
     border-radius: 8px;
+}
+*/
+
+.topic-list-item, tr {
+    background: #fff;
 }
 
 .latest-topic-list {
