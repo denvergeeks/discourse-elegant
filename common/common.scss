@@ -1814,6 +1814,10 @@ div.timeline-scrollarea {
     position: unset;
 }
 
+.topic-list-item:hover,
+.topic-list-item.selected,
+.latest-topic-list-item:hover,
+.latest-topic-list-item.selected,
 .topic-card:hover,
 .topic-card.selected {
     background-color: #fff;
