@@ -1818,8 +1818,8 @@ div.timeline-scrollarea {
 .topic-list-item:hover,
 /* .latest-topic-list-item.selected, */
 .latest-topic-list-item:hover,
-/* .topic-card.selected { */
-.topic-card:hover,
+/* .topic-card.selected, { */
+.topic-card:hover {
     background-color: #fff;
     outline: 1px dashed #009a49 !important;
 }
