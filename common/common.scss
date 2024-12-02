@@ -658,7 +658,7 @@ svg.fa.d-icon.d-icon-bookmark.svg-icon.svg-node {
     */
     padding: 0 10px 0 0;
     margin: 1em;
-    border: 1px dashed green;
+    outline: 1px dashed #009a49 !important;
 }
 
 /*
@@ -1821,7 +1821,7 @@ div.timeline-scrollarea {
 .topic-card:hover,
 .topic-card.selected {
     background-color: #fff;
-    outline: 1px dashed green;
+    outline: 1px dashed #009a49 !important;
 }
 
 /*
