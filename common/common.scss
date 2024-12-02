@@ -1814,25 +1814,22 @@ div.timeline-scrollarea {
     position: unset;
 }
 
-/* .topic-list-item.selected, */
+/*
 .topic-list-item:hover,
-/* .latest-topic-list-item.selected, */
 .latest-topic-list-item:hover,
-/* .topic-card.selected, { */
 .topic-card:hover {
     background-color: #fff;
     outline: 1px dashed #009a49 !important;
 }
 
-/*
-.topic-list {
-    background-color: #fff;
-    border-radius: 8px;
+.topic-list-item, tr {
+    background: #fff;
 }
 */
 
-.topic-list-item, tr {
-    background: #fff;
+.topic-list {
+    background-color: #fff;
+    border-radius: 8px;
 }
 
 .latest-topic-list {
