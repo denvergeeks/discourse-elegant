@@ -1851,7 +1851,7 @@ div.timeline-scrollarea {
 .topic-list .main-link a.title,
 .latest-topic-list-item .main-link a.title,
 .docs-browse .docs-topic-list .docs-topic-link {
-    color: #00689c;
+    color: var(--d-nav-color--active) !important;
 }
 
 /*
