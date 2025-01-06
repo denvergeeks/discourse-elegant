@@ -412,6 +412,7 @@ background-attachment: fixed;
 .topic-body details summary,
 .d-editor-preview details summary::before,
 .topic-body details summary::before {
+    font-size: large;
     color: var(--tertiary);
     filter: drop-shadow(1px 4px 2px rgba(0,0,0,0.4));
     content: "\25BA";
@@ -445,7 +446,7 @@ details.open>summary:first-of-type ~ * {
 .d-editor-preview details[open]>summary,
 .topic-body details[open]>summary {
     /* border-bottom: .1em solid var(--secondary); */
-    background: color-mix(in srgb, var(--tertiary) 8%, transparent);
+    /* background: color-mix(in srgb, var(--tertiary) 8%, transparent); */
 }
 
 .cooked details[open] h1,
