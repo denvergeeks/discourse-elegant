@@ -458,7 +458,7 @@ details.open>summary:first-of-type ~ * {
 .d-editor-preview details[open] h6 {
     margin-top: 0;
     margin-bottom: 0.4rem;
-    line-height: normal;
+    line-height: 1.5;
 }
 
 details[open] > summary:first-of-type iframe {
