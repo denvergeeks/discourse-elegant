@@ -429,7 +429,7 @@ details > summary:first-of-type {
 
 details[open]>summary:first-of-type ~ *,
 details.open>summary:first-of-type ~ * {
-    margin: 15px;
+    margin: 1rem;
 }
 
 .d-editor-preview details[open]>summary,
