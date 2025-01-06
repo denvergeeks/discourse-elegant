@@ -424,7 +424,7 @@ div.container.posts summary {
 */
 
 details > summary:first-of-type {
-    padding: 5px;
+    /* padding: 5px; */
 }
 
 details[open]>summary:first-of-type ~ *,
