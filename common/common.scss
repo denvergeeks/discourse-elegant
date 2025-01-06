@@ -439,11 +439,17 @@ details.open>summary:first-of-type ~ * {
 }
 
 details[open] .cooked h1,
+details.open .cooked h1,
 details[open] .cooked h2,
+details.open .cooked h2,
 details[open] .cooked h3,
+details.open .cooked h3,
 details[open] .cooked h4,
+details.open .cooked h4,
 details[open] .cooked h5,
+details.open .cooked h5,
 details[open] .cooked h6,
+details.open .cooked h6,
 details[open] .d-editor-preview h1,
 details[open] .d-editor-preview h2,
 details[open] .d-editor-preview h3,
