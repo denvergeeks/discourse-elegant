@@ -425,7 +425,7 @@ details.open>summary:first-of-type ~ * {
 
 .d-editor-preview details[open]>summary,
 .topic-body details[open]>summary {
-    border-bottom: .1em solid var(--secondary);
+    /* border-bottom: .1em solid var(--secondary); */
     background: color-mix(in srgb, var(--tertiary) 8%, transparent);
 }
 
