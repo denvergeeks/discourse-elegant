@@ -438,26 +438,27 @@ details.open>summary:first-of-type ~ * {
     background: color-mix(in srgb, var(--tertiary) 8%, transparent);
 }
 
-details[open] .cooked h1,
-details.open .cooked h1,
-details[open] .cooked h2,
-details.open .cooked h2,
-details[open] .cooked h3,
-details.open .cooked h3,
-details[open] .cooked h4,
-details.open .cooked h4,
-details[open] .cooked h5,
-details.open .cooked h5,
-details[open] .cooked h6,
-details.open .cooked h6,
-details[open] .d-editor-preview h1,
-details[open] .d-editor-preview h2,
-details[open] .d-editor-preview h3,
-details[open] .d-editor-preview h4,
-details[open] .d-editor-preview h5,
-details[open] .d-editor-preview h6 {
+.cooked details[open] h1,
+.cooked details.open h1,
+.cooked details[open]  h2,
+.cooked details.open  h2,
+.cooked details[open]  h3,
+.cooked details.open  h3,
+.cooked details[open]  h4,
+.cooked details.open  h4,
+.cooked details[open]  h5,
+.cooked details.open  h5,
+.cooked details[open]  h6,
+.cooked details.open  h6,
+.d-editor-preview details[open] h1,
+.d-editor-preview details[open] h2,
+.d-editor-preview details[open] h3,
+.d-editor-preview details[open] h4,
+.d-editor-preview details[open] h5,
+.d-editor-preview details[open] h6 {
     margin-top: 0;
     margin-bottom: 0.4rem;
+    line-height: normal;
 }
 
 details[open] > summary:first-of-type iframe {
