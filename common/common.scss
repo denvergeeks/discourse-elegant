@@ -390,7 +390,7 @@ details.details__boxed:not([open]):focus {
 
 div.container.posts details[open],
 div.container.posts details.open {
-    padding-bottom: 1px;
+    /* padding-bottom: 1px; */
 }
 
 .d-editor-preview details summary::before,
