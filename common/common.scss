@@ -365,6 +365,9 @@ div.container.posts details {
 }
 
 
+.topic-body .cooked details,
+details .d-editor-preview,
+details.details__boxed,
 
 .topic-body .cooked details:not([open]):hover,
 .topic-body .cooked details:not([open]):focus,
@@ -384,10 +387,11 @@ details.details__boxed:not([open]):focus {
 
 
 
-
+/*
 .topic-body .cooked details,
 details .d-editor-preview,
 details.details__boxed,
+*/
 
 div.container.posts details[open],
 div.container.posts details.open,
