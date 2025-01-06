@@ -390,13 +390,13 @@ details.details__boxed:not([open]):focus {
 padding: 0;
 }
 
-/*
-div.container.posts details[open],
-div.container.posts details.open {
+
+/* div.container.posts details[open], */
+/* div.container.posts details.open { */
     /* padding-bottom: 1px; */
-padding: 0;
-}
-*/
+/* padding: 0; */
+/* } */
+
 
 .d-editor-preview details summary::before,
 .topic-body details summary::before {
