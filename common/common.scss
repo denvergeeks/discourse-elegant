@@ -408,7 +408,8 @@ background-attachment: fixed;
 /* padding: 0; */
 /* } */
 
-
+ details summary,
+.topic-body details summary,
 .d-editor-preview details summary::before,
 .topic-body details summary::before {
     color: var(--tertiary);
