@@ -438,18 +438,18 @@ details.open>summary:first-of-type ~ * {
     background: color-mix(in srgb, var(--tertiary) 8%, transparent);
 }
 
-details .cooked h1,
-details .cooked h2,
-details .cooked h3,
-details .cooked h4,
-details .cooked h5,
-details .cooked h6,
-details .d-editor-preview h1,
-details .d-editor-preview h2,
-details .d-editor-preview h3,
-details .d-editor-preview h4,
-details .d-editor-preview h5,
-details .d-editor-preview h6 {
+details[open] .cooked h1,
+details[open] .cooked h2,
+details[open] .cooked h3,
+details[open] .cooked h4,
+details[open] .cooked h5,
+details[open] .cooked h6,
+details[open] .d-editor-preview h1,
+details[open] .d-editor-preview h2,
+details[open] .d-editor-preview h3,
+details[open] .d-editor-preview h4,
+details[open] .d-editor-preview h5,
+details[open] .d-editor-preview h6 {
     margin-top: 0;
     margin-bottom: 0.4rem;
 }
