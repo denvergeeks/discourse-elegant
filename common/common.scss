@@ -416,6 +416,11 @@ background-attachment: fixed;
     filter: drop-shadow(1px 4px 2px rgba(0,0,0,0.3));
 }
 
+.d-editor-preview details[open] summary,
+.topic-body details[open] summary {
+    border-bottom: 1px solid var(--tertiary);
+}
+
 
 .d-editor-preview details summary::before,
 .topic-body details summary::before {
