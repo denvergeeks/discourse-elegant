@@ -418,7 +418,8 @@ background-attachment: fixed;
 
 .d-editor-preview details[open] summary,
 .topic-body details[open] summary {
-    border-bottom: 1px solid var(--tertiary);
+    /* border-bottom: 1px solid var(--tertiary); */
+    border-bottom: 1px solid var(--tertiary, rgba(0, 0, 0, 0.5));
 }
 
 
