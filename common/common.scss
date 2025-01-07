@@ -408,8 +408,15 @@ background-attachment: fixed;
 /* padding: 0; */
 /* } */
 
- details summary,
-.topic-body details summary,
+/* details summary, */
+.d-editor-preview details summary,
+.topic-body details summary {
+    /* font-size: large; */
+    color: var(--tertiary);
+    filter: drop-shadow(1px 4px 2px rgba(0,0,0,0.3));
+}
+
+
 .d-editor-preview details summary::before,
 .topic-body details summary::before {
     /* font-size: large; */
