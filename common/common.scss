@@ -128,30 +128,13 @@ body.has-sidebar-page #main-outlet-wrapper {
     background: #b0b0cc !important;
 }
 
-.btn-flat.sidebar-more-section-links-details-summary,
-.sidebar-more-section-links-details-summary.json-editor-btn-collapse {
-    height: 1.5em;
-    padding: 0.5em 1em;
-    box-shadow: none !important;
-}
+
 
 a.btn.no-text.btn-icon.btn.search-icon,
 button.btn.no-text.btn-icon.show-advanced-search {
 box-shadow: none !important;
 }
 
-.btn-flat.sidebar-more-section-links-details-summary:focus-within,
-.sidebar-more-section-links-details-summary.json-editor-btn-collapse:focus-within,
-.btn-flat.sidebar-more-section-links-details-summary:active,
-.sidebar-more-section-links-details-summary.json-editor-btn-collapse:active,
-.btn-flat.sidebar-more-section-links-details-summary:hover,
-.sidebar-more-section-links-details-summary.json-editor-btn-collapse:hover {
-    height: 1.5em;
-    padding: 0.5em 1em;
-    color: #fff;
-    background: #b0b0cc;
-    box-shadow: none !important;
-}
 
 .sidebar-section-wrapper .sidebar-section-header-wrapper:focus-within {
     background: none;
@@ -357,140 +340,11 @@ hr {
     border-top: 5px solid #adadd1;
 }
 
-div.container.posts details {
-    /* outline: 3px solid #adadd1; */
-    /* padding: 0; */
-    border-radius: 3px;
-    outline: 1px solid var(--primary-low);
-}
 
 
 
 
 
-
-
-.topic-body .cooked details,
-details .d-editor-preview,
-details.details__boxed,
-
-div.container.posts details[open],
-div.container.posts details.open,
-.topic-body .cooked details:not([open]):focus-within,
-details .d-editor-preview:not([open]):focus-within,
-details.details__boxed:not([open]):focus-within {
-    background: color-mix(in srgb, var(--secondary) 8%, transparent);
-    background-image: url("data:image/svg+xml,%3Csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3E%3Cdefs%3E%3Cfilter id='a'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.4'/%3E%3C/filter%3E%3C/defs%3E%3C!-- %3Cpath filter='url(%23a)' opacity='.3' d='M0 0h1200v256H0z'/%3E--%3E%3Crect filter='url(%23a)' opacity='.3' width='100%25' height='100%25'/%3E%3C/svg%3E");
-/* background-attachment: fixed; */ /* Fixed the background which was not showing on Firefox, per: https://css-tricks.com/the-fixed-background-attachment-hack/#aa-here-are-my-takeaways */
-    height: 100%;
-    
-/*    padding: 0; */
-}
-
-
-.topic-body .cooked details:not([open]):hover,
-.topic-body .cooked details:not([open]):focus,
-details .d-editor-preview:not([open]):hover,
-details .d-editor-preview:not([open]):focus,
-details.details__boxed:not([open]):hover,
-details.details__boxed:not([open]):focus {
-    background: color-mix(in srgb, var(--tertiary) 8%, transparent);
-background-attachment: fixed;
-/*    padding: 0; */
-}
-
-
-
-
-
-/* div.container.posts details[open], */
-/* div.container.posts details.open { */
-    /* padding-bottom: 1px; */
-/* padding: 0; */
-/* } */
-
-/* details summary, */
-.d-editor-preview details summary,
-.topic-body details summary {
-    /* font-size: large; */
-    color: var(--tertiary);
-    filter: drop-shadow(1px 4px 2px rgba(0,0,0,0.3));
-}
-
-.d-editor-preview details[open] summary,
-.topic-body details[open] summary {
-    padding-bottom: .2em;
-    border-bottom: 1px dashed var(--tertiary);
-    /* border-bottom: 1px solid var(--tertiary); */
-    /* border-bottom: 1px solid var(--tertiary-400); */
-}
-
-
-.d-editor-preview details summary::before,
-.topic-body details summary::before {
-    /* font-size: large; */
-    color: var(--tertiary);
-    filter: drop-shadow(1px 4px 2px rgba(0,0,0,0.3));
-    content: "\25BA";
-}
-
-/*
-div.container.posts summary {
-    outline: none;
-    font-family: monospace, monospace;
-    font-weight: 400;
-    background-color: #adadd133;
-    padding: 10px 20px;
-}
-*/
-
-details > summary:first-of-type {
-    /* padding: 5px; */
-}
-
-details[open]>summary:first-of-type ~ *,
-details.open>summary:first-of-type ~ * {
-    /* margin: 1rem; */
-}
-
-.d-editor-preview details[open]>summary,
-.topic-body details[open]>summary {
-    /* border-bottom: .1em solid var(--secondary); */
-    /* background: color-mix(in srgb, var(--tertiary) 8%, transparent); */
-}
-
-.cooked details[open] h1,
-.cooked details.open h1,
-.cooked details[open]  h2,
-.cooked details.open  h2,
-.cooked details[open]  h3,
-.cooked details.open  h3,
-.cooked details[open]  h4,
-.cooked details.open  h4,
-.cooked details[open]  h5,
-.cooked details.open  h5,
-.cooked details[open]  h6,
-.cooked details.open  h6,
-.d-editor-preview details[open] h1,
-.d-editor-preview details[open] h2,
-.d-editor-preview details[open] h3,
-.d-editor-preview details[open] h4,
-.d-editor-preview details[open] h5,
-.d-editor-preview details[open] h6 {
-    /* margin-top: 0; */
-    /* margin-bottom: 0.4rem;     */
-    /* line-height: normal; */
-
-}
-
-details[open] > summary:first-of-type iframe {
-    margin: 20px;
-}
-
-details button.iframe-expand-btn {
-    top: 10px;
-    right: 30px;
-}
 
 [data-theme="jonebox"] {
     border: 5px solid var(--primary-low);
@@ -553,11 +407,7 @@ div[data-theme-otter] {
   }
 }
 
-div[data-theme-hide-details] {
-  details {
-    display: none;
-  }
-}
+
 
 .floatl {
     float: left;
@@ -1426,7 +1276,6 @@ a.badge-wrapper.bullet,
 .dashboard .navigation,
 .dashboard-next .navigation,
 .loading-container,
-div.details,
 div.user-content,
 .boxed.white {
     margin: 0 1em 1em;
@@ -1437,7 +1286,6 @@ div.user-content,
 /*
 .dashboard .navigation,
 .dashboard-next .navigation,
-div.details,
 div.user-content,
 .boxed.white,
 */
@@ -1448,7 +1296,6 @@ div.user-content,
 }
 
 div.boxed.white.admin-content,
-.user-main .about .details,
 .user-main .user-content {
     padding: .8em;
     /* padding: var(--d-wrap-padding-h); */
@@ -1571,7 +1418,6 @@ div.search-header,
 .layouts-nav-button>li>a.active,
 li.navigation-toggle,
 .btn,
-div.details,
 div.user-content,
 .list-controls .nav-pills>li,
 .popup-menu,
@@ -2018,11 +1864,7 @@ sidebar.left .fixed {
 }
 */
 
-/*
-.user-main .about.collapsed-info .details {
-    padding: 1.5em 1em 0;
-}
-*/
+
 
 /*
 .user-navigation-primary,
@@ -2031,21 +1873,6 @@ sidebar.left .fixed {
 }
 */
 
-.user-main .about .details .primary .primary-textual {
-    padding: 0;
-}
-
-.user-main .about .details .user-profile-avatar {
-    margin-top: -7px
-}
-
-.user-main .about .details h2 {
-    margin-bottom: 0;
-}
-
-.user-main .about .details .primary h1 {
-    margin-bottom: 0;
-}
 
 .link-share-actions {
     padding: 5px 5px 7px;
@@ -2280,12 +2107,7 @@ button#new-create-topic.btn.btn-default.btn-icon-text svg.fa.d-icon.d-icon-plus.
     fill: #fff !important;
 }
 
-div.container.posts .topic-notifications-button details{
-    outline: unset;
-    padding: unset;
-    background-color: unset;
-    border-radius: unset;
-}
+
 
 .print-button {
     margin-right: .5em;
