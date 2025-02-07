@@ -5,14 +5,14 @@ body.tab-bar-hidden .d-tab-bar {
 
 nav.post-controls .show-replies,
 nav.post-controls .show-replies[aria-expanded=true] {
-    padding: 3px 5px 2px 10px;
+    padding: 8px 10px !important;
 }
 
 nav.post-controls .show-replies,
 nav.post-controls .show-replies[aria-expanded=true],
 .embedded-posts.bottom>div .row .topic-avatar,
 .embedded-posts.bottom>div .row .topic-body {
-    background-color: aliceblue;
+    background-color: aliceblue !important;
 }
 
 nav.post-controls .show-replies:hover,
@@ -23,7 +23,7 @@ nav.post-controls .show-replies[aria-expanded=true]:hover,
 nav.post-controls .show-replies[aria-expanded=true]:focus,
 nav.post-controls .show-replies[aria-expanded=true]:active,
 .embedded-posts.bottom .collapse-up {
-    background-color: aliceblue;
+    background-color: aliceblue !important;
     color: var(--tertiary) !important;
     outline: 1px dashed #009a49 !important;
 }
