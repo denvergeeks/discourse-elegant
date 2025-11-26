@@ -82,6 +82,10 @@ body.has-sidebar-page #main-outlet-wrapper {
     padding-right: 0;
 }
 
+.sidebar-section-wrapper {
+    border-bottom: none;
+}
+
 .sidebar-section-wrapper .sidebar-section-content {
     padding-left: 2em;
     /* padding-right: var(--d-sidebar-row-horizontal-padding); */
