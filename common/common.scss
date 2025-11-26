@@ -63,16 +63,16 @@ div#main-outlet button:active {
 div#main-outlet .show-replies:hover,
 div#main-outlet .show-replies:focus,
 div#main-outlet .show-replies:active,
-nav.post-controls .show-replies[aria-expanded=true],
-nav.post-controls .show-replies[aria-expanded=true]:hover,
-nav.post-controls .show-replies[aria-expanded=true]:focus,
-nav.post-controls .show-replies[aria-expanded=true]:active,
-.embedded-posts.bottom .collapse-up:hover,
-.embedded-posts.bottom .collapse-up:focus,
-.embedded-posts.bottom .collapse-up:active,
-.embedded-posts.bottom .collapse-up[aria-expanded=true]:hover,
-.embedded-posts.bottom .collapse-up[aria-expanded=true]:focus,
-.embedded-posts.bottom .collapse-up[aria-expanded=true]:active {
+div#main-outlet nav.post-controls .show-replies[aria-expanded=true],
+div#main-outlet nav.post-controls .show-replies[aria-expanded=true]:hover,
+div#main-outlet nav.post-controls .show-replies[aria-expanded=true]:focus,
+div#main-outlet nav.post-controls .show-replies[aria-expanded=true]:active,
+div#main-outlet .embedded-posts.bottom .collapse-up:hover,
+div#main-outlet .embedded-posts.bottom .collapse-up:focus,
+div#main-outlet .embedded-posts.bottom .collapse-up:active,
+div#main-outlet .embedded-posts.bottom .collapse-up[aria-expanded=true]:hover,
+div#main-outlet .embedded-posts.bottom .collapse-up[aria-expanded=true]:focus,
+div#main-outlet .embedded-posts.bottom .collapse-up[aria-expanded=true]:active {
     background-color: aliceblue !important;
     color: var(--tertiary) !important;
     outline: 1px dashed var(--tertiary) !important;
