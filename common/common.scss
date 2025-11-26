@@ -100,18 +100,18 @@ div#main-outlet .embedded-posts.bottom .collapse-up[aria-expanded=true]:active {
     border-left: none !important;
 }
 
+/*
 .embedded-posts.bottom>div .row .topic-body::before {
   content: "";
   position: absolute;
   left: 0;
-  top: 40px; /* Start 25% down from the top */
-  height: 100%; /* Make it 50% of the container height (e.g., shorter than full height) */
-  width: .1px; /* Thickness of the line */
-  background-color: rgba(0, 0, 0, 0.5); /* Simulates a solid, dark shadow */
+  top: 40px;
+  height: 100%;
+  width: .04px;
   background-color: rgba(0,85,128,0.2);
-  /* Add blur using filter if you need a soft edge */
-  /* filter: blur(2px); */ 
+  filter: blur(0px); 
 }
+*/
 
 .embedded-posts.bottom>div .row::before {
     background: var(--tertiary) !important;
