@@ -108,7 +108,7 @@ div#main-outlet .embedded-posts.bottom .collapse-up[aria-expanded=true]:active {
   height: 100%; /* Make it 50% of the container height (e.g., shorter than full height) */
   width: 1px; /* Thickness of the line */
   background-color: rgba(0, 0, 0, 0.5); /* Simulates a solid, dark shadow */
-  background-color: var(--tertiary);
+  background-color: rgba(0,85,128,0.2);
   /* Add blur using filter if you need a soft edge */
   /* filter: blur(2px); */ 
 }
