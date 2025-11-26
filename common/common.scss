@@ -111,6 +111,14 @@ nav.post-controls .show-replies .svg-icon,
     padding: 6px 0 6px 6px;
 }
 
+.embedded-posts.bottom>div .row .topic-avatar .img-avatar {
+    width: 2em;
+    height: 2em;
+    margin-right: 0;
+}
+
+
+
 .embedded-posts .arrow {
     color: var(--tertiary) !important;
 }
