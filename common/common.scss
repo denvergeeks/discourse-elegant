@@ -1,3 +1,12 @@
+/* btn no-text btn-icon fk-d-menu__trigger topic-drafts-menu-trigger btn-small btn-default */
+
+.fk-d-menu__trigger .svg-icon {
+    /* fill: rgba(78, 43, 43, .6901960784) !important; */
+    fill: #009a49 !important;
+    filter: drop-shadow(1px 4px 2px rgba(0, 0, 0, 0.4));
+}
+
+
 body.tab-bar-hidden .d-tab-bar {
     bottom: 0;
     transition: all .2s ease-in;
