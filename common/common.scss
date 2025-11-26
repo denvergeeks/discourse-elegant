@@ -32,9 +32,9 @@ div#main-outlet button:active {
 }
 */
 
-button.btn.btn-icon-text.btn-default:hover,
-button.btn.btn-icon-text.btn-defauln:focus,
-button.btn.btn-icon-text.btn-default:active {
+.btn-default:hover,
+.btn-defauln:focus,
+.btn-default:active {
     outline: 1px dashed #009a49 !important;
     background: transparent !important;
 }
