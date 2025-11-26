@@ -1734,11 +1734,11 @@ a:hover {
 }
 
 table tr:nth-child(odd) {
-  background-color: #f2f2f2; /* Light gray for odd rows */
+  background-color: #f2f2f2 !important; /* Light gray for odd rows */
 }
 
 table tr:nth-child(even) {
-  background-color: #ffffff; /* White for even rows */
+  background-color: #ffffff !important; /* White for even rows */
 }
 
 /*
