@@ -1733,6 +1733,14 @@ a:hover {
     color: #222;
 }
 
+table tr:nth-child(odd) {
+  background-color: #f2f2f2; /* Light gray for odd rows */
+}
+
+table tr:nth-child(even) {
+  background-color: #ffffff; /* White for even rows */
+}
+
 /*
 h1, #topic-title .title-wrapper #edit-title, h2, h3 {
     margin-bottom: 0.4rem !important;
