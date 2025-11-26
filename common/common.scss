@@ -85,15 +85,16 @@ div#main-outlet .embedded-posts.bottom .collapse-up[aria-expanded=true]:active {
 .embedded-posts.bottom>div .row .topic-body {
     background-color: aliceblue !important;
     box-shadow: 0 4px 14px rgba(0, 0, 0, .15) !important;
-    outline: 1px dotted var(--tertiary) !important;
-    border: none !important;
+    /* outline: 1px dotted var(--tertiary) !important; */
+    border: 1px dotted var(--tertiary) !important;
 }
 
 .embedded-posts.bottom>div .row .topic-avatar {
     background-color: aliceblue !important;
     box-shadow: 0 4px 14px rgba(0, 0, 0, .15) !important;
-    outline: 1px dotted var(--tertiary) !important;
-    border: none !important;
+    /* outline: 1px dotted var(--tertiary) !important; */
+    border: 1px dotted var(--tertiary) !important;
+    border-right: none !important;
 }
 
 .embedded-posts.bottom .collapse-up {
