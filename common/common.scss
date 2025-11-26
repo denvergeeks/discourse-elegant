@@ -87,17 +87,18 @@ div#main-outlet .embedded-posts.bottom .collapse-up[aria-expanded=true]:active {
     box-shadow: 0 4px 14px rgba(0, 0, 0, .15) !important;
     /* outline: 1px dotted var(--tertiary) !important; */
     border: 1px dotted var(--tertiary) !important;
-    border-left: none;
+    border-left: none !important;
 }
 
 .embedded-posts.bottom>div .row .topic-body::before {
   content: "";
   position: absolute;
   left: 0;
-  top: 25%; /* Start 25% down from the top */
-  height: 50%; /* Make it 50% of the container height (e.g., shorter than full height) */
+  top: 40px; /* Start 25% down from the top */
+  height: 100%; /* Make it 50% of the container height (e.g., shorter than full height) */
   width: 1px; /* Thickness of the line */
   background-color: rgba(0, 0, 0, 0.5); /* Simulates a solid, dark shadow */
+  background-color: var(--tertiary);
   /* Add blur using filter if you need a soft edge */
   /* filter: blur(2px); */ 
 }
@@ -127,7 +128,8 @@ nav.post-controls .show-replies .svg-icon,
 }
 
 .embedded-posts.bottom>div .row .topic-avatar {
-    padding: 6px 0 6px 6px;
+    width: auto !important;
+    padding: 3px !important;
 }
 
 .post__embedded-posts.post__embedded-posts--bottom.embedded-posts.bottom div.topic-avatar > div > a > img {
