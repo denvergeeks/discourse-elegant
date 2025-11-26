@@ -16,12 +16,18 @@ btn no-text fk-d-menu__trigger topic-admin-menu-trigger btn-default btn-icon tog
 }
 */
 
+/*
 div#main-outlet .btn-default {
     outline: 1px dashed #009a49 !important;
     background: rgba(0, 0, 0, 0) !important;
 }
+*/
 
-
+div#main-outlet button:hover,
+div#main-outlet button:focus,
+div#main-outlet button:active {
+    outline: 1px dashed #009a49 !important;
+    background: transparent !important;
 
 
 
@@ -1138,6 +1144,8 @@ div#display-modes a.active .d-icon,
 .d-modal.json-schema-editor-modal .je-ready .timeline-container .topic-timeline .topic-admin-menu-button button,
 */
 
+
+/*
 .btn-default button:hover,
 .btn-default button:focus,
 .btn-default button:active,
@@ -1172,6 +1180,7 @@ div.timeline-controls button:active {
     outline: 1px dashed #009a49 !important;
     background: transparent !important;
 }
+*/
 
 /*
 nav.post-controls .actions button.bookmarked .d-icon {
