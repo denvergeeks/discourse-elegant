@@ -100,18 +100,18 @@ div#main-outlet .embedded-posts.bottom .collapse-up[aria-expanded=true]:active {
     border-left: none !important;
 }
 
-/*
+
 .embedded-posts.bottom>div .row .topic-body::before {
   content: "";
   position: absolute;
   left: 0;
-  top: 40px;
+  top: 38px;
   height: 100%;
   width: .04px;
   background-color: rgba(0,85,128,0.2);
   filter: blur(0px); 
 }
-*/
+
 
 .embedded-posts.bottom>div .row::before {
     background: var(--tertiary) !important;
