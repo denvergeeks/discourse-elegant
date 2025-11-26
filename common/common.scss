@@ -43,7 +43,8 @@ nav.post-controls .show-replies[aria-expanded=true] {
 
 /*  */
 nav.post-controls .show-replies,
-nav.post-controls .show-replies[aria-expanded=true] {
+nav.post-controls .show-replies[aria-expanded=true],
+.embedded-posts.bottom .collapse-up {
     background-color: aliceblue !important;
     color: var(--tertiary) !important;
     outline: 1px dashed var(--tertiary) !important;
@@ -56,8 +57,7 @@ nav.post-controls .show-replies:active,
 nav.post-controls .show-replies[aria-expanded=true],
 nav.post-controls .show-replies[aria-expanded=true]:hover,
 nav.post-controls .show-replies[aria-expanded=true]:focus,
-nav.post-controls .show-replies[aria-expanded=true]:active,
-.embedded-posts.bottom .collapse-up {
+nav.post-controls .show-replies[aria-expanded=true]:active {
     background-color: aliceblue !important;
     color: var(--tertiary) !important;
     outline: 1px dashed var(--tertiary) !important;
