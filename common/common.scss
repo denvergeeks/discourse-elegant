@@ -87,24 +87,15 @@ div#main-outlet .embedded-posts.bottom .collapse-up[aria-expanded=true]:active {
     background-color: aliceblue !important;
     /* box-shadow: 0 4px 14px rgba(0, 0, 0, .15) !important; */
     /* box-shadow: 0 1.36px 8.896px #0088cc, 0 0 1px !important; */
-    border: none !important;
-    
-    /*
-    box-shadow:
-       .3px .5px .7px #0088cc,
-       .8px 1.6px 2px -0.8px #0088cc,
-       2.1px 4.1px 5.2px -1.7px #0088cc,
-       5px 10px 12.6px -2.5px #0088cc !important;
-    */
-    
+    /* box-shadow: -.3px 0px 0px .4px rgba(0,85,128,0.2) !important; */
     box-shadow: .5px 0px 0px .5px rgba(0,85,128,0.2) !important;
-    
-    /* outline: 1px dotted var(--tertiary) !important; */
-    /* border: 1px dotted var(--tertiary) !important; */
+    border-left: 1px solid  rgba(0,85,128,0.2) !important;
+    border-bottom: 1px solid  rgba(0,85,128,0.2) !important;
+    border-top: 1px solid  rgba(0,85,128,0.2) !important;
     border-left: none !important;
 }
 
-
+#post_1 .embedded-posts.bottom>div .row .topic-body::before,
 .embedded-posts.bottom>div .row .topic-body::before {
   content: "";
   position: absolute;
@@ -116,7 +107,7 @@ div#main-outlet .embedded-posts.bottom .collapse-up[aria-expanded=true]:active {
   filter: blur(0px); 
 }
 
-
+#post_1 .embedded-posts.bottom>div .row::before,
 .embedded-posts.bottom>div .row::before {
     background: var(--tertiary) !important;
     left: 20px !important;
@@ -129,24 +120,10 @@ div#main-outlet .embedded-posts.bottom .collapse-up[aria-expanded=true]:active {
     border-bottom: 1px solid  rgba(0,85,128,0.2) !important;
     border-top: 1px solid  rgba(0,85,128,0.2) !important;
     border-right: none !important;
-    /* box-shadow: 0 1.36px 8.896px #0088cc, 0 0 1px !important; */
-
-   /*
-    box-shadow:
-       .3px .5px .7px #0088cc,
-       .8px 1.6px 2px -0.8px #0088cc,
-       2.1px 4.1px 5.2px -1.7px #0088cc,
-       5px 10px 12.6px -2.5px #0088cc !important;
-    */
-
-    /* box-shadow: -.3px 0px 0px .4px rgba(0,85,128,0.2) !important; */
-    
     /* box-shadow: 0 4px 14px rgba(0, 0, 0, .15) !important; */
-    /* outline: 1px dotted var(--tertiary) !important; */
-    /* border: 1px dotted var(--tertiary) !important; */
+    /* box-shadow: 0 1.36px 8.896px #0088cc, 0 0 1px !important; */
+    /* box-shadow: -.3px 0px 0px .4px rgba(0,85,128,0.2) !important; */
 }
-
-
 
 .embedded-posts.bottom .collapse-up {
     padding: 3px;
