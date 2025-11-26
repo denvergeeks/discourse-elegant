@@ -1142,6 +1142,10 @@ div#display-modes a.active .d-icon,
 .btn-default button:focus,
 .btn-default button:active,
 
+div.topic-footer-buttons button:hover,
+div.topic-footer-buttons button:focus,
+div.topic-footer-buttons button:active,
+
 .timeline-controls .d-modal.json-schema-editor-modal .je-ready button.d-hover,
 .timeline-controls .d-modal.json-schema-editor-modal .je-ready .json-editor-btn-add button:focus,
 .timeline-controls .d-modal.json-schema-editor-modal .je-ready .json-editor-btn-add button:active,
@@ -1161,6 +1165,7 @@ div.timeline-footer-controls button:active,
 nav.post-controls .actions button.d-hover,
 nav.post-controls .actions button:focus,
 nav.post-controls .actions button:active,
+
 div.timeline-controls button:hover,
 div.timeline-controls button:focus,
 div.timeline-controls button:active {
