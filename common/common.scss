@@ -105,6 +105,7 @@ div#main-outlet .embedded-posts.bottom .collapse-up[aria-expanded=true]:active {
 
 .embedded-posts.bottom>div .row::before {
     background: var(--tertiary) !important;
+    left: 20px !important;
 }
 
 .embedded-posts.bottom>div .row .topic-avatar {
@@ -119,6 +120,7 @@ div#main-outlet .embedded-posts.bottom .collapse-up[aria-expanded=true]:active {
 
 .embedded-posts.bottom .collapse-up {
     padding: 0;
+    left: 20px !important;
 }
 
 nav.post-controls .show-replies .svg-icon,
