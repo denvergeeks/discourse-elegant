@@ -57,12 +57,23 @@ nav.post-controls .show-replies[aria-expanded=true],
 nav.post-controls .show-replies[aria-expanded=true]:hover,
 nav.post-controls .show-replies[aria-expanded=true]:focus,
 nav.post-controls .show-replies[aria-expanded=true]:active,
-.embedded-posts.bottom>div .row .topic-avatar,
-.embedded-posts.bottom>div .row .topic-body,
 .embedded-posts.bottom .collapse-up {
     background-color: aliceblue !important;
     color: var(--tertiary) !important;
     outline: 1px dashed var(--tertiary) !important;
+}
+
+.embedded-posts.bottom>div .row .topic-body {
+    background-color: aliceblue !important;
+    color: var(--tertiary) !important;
+    outline: 1px dashed var(--tertiary) !important;
+}
+
+.embedded-posts.bottom>div .row .topic-avatar,
+.embedded-posts.bottom>div .row .topic-body {
+    background-color: aliceblue !important;
+    color: var(--tertiary) !important;
+    outline: 1px var(--tertiary) !important;
 }
 
 .embedded-posts.bottom .collapse-up {
