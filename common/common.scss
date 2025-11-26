@@ -1,10 +1,28 @@
-/* btn no-text btn-icon fk-d-menu__trigger topic-drafts-menu-trigger btn-small btn-default */
+/* 
 
+btn no-text btn-icon fk-d-menu__trigger topic-drafts-menu-trigger btn-small btn-default 
+
+btn btn-icon-text btn-default topic-footer-button share-and-invite 
+
+btn no-text fk-d-menu__trigger topic-admin-menu-trigger btn-default btn-icon toggle-admin-menu 
+
+*/
+
+/*
 .fk-d-menu__trigger .svg-icon {
-    /* fill: rgba(78, 43, 43, .6901960784) !important; */
+    fill: rgba(78, 43, 43, .6901960784) !important;
     fill: #009a49 !important;
     filter: drop-shadow(1px 4px 2px rgba(0, 0, 0, 0.4));
 }
+
+
+.btn-default {
+    outline: 1px dashed #009a49 !important;
+    background: rgba(0, 0, 0, 0) !important;
+}
+*/
+
+
 
 
 body.tab-bar-hidden .d-tab-bar {
@@ -1119,6 +1137,10 @@ div#display-modes a.active .d-icon,
 .timeline-container .topic-timeline .topic-admin-menu-button .d-modal.json-schema-editor-modal .je-ready button,
 .d-modal.json-schema-editor-modal .je-ready .timeline-container .topic-timeline .topic-admin-menu-button button,
 */
+
+.btn-default button:hover,
+.btn-default button:focus,
+.btn-default button:active,
 
 .timeline-controls .d-modal.json-schema-editor-modal .je-ready button.d-hover,
 .timeline-controls .d-modal.json-schema-editor-modal .je-ready .json-editor-btn-add button:focus,
