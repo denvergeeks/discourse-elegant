@@ -951,6 +951,7 @@ body.ios-safari-composer-hacks {
     }
 }
 
+/*
 body:not(.ios-safari-composer-hacks) {
     #reply-control.open {
         --min-height: 400px;
@@ -962,6 +963,7 @@ body:not(.ios-safari-composer-hacks) {
         padding-bottom: var(--composer-ipad-padding);
     }
 }
+*/
 
 .bootstrap-mode-notice,
 #global-notice-alert-bootstrap-mode,
