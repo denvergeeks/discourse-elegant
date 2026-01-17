@@ -193,6 +193,7 @@ body.has-sidebar-page #main-outlet-wrapper {
 */
 
 .sidebar-wrapper {
+    padding-top: var(--main-outlet-padding-top);
     background: transparent;
 }
 
