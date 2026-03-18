@@ -32,6 +32,16 @@ div#main-outlet button:active {
 }
 */
 
+/* Preserve whitespace in Discourse code blocks */
+pre,
+code,
+pre > code {
+  /* allow wrapping while still preserving spaces */
+  white-space: pre-wrap !important;
+  /* keep spaces, tabs and line breaks */
+  /*  white-space: pre;  */
+}
+
 .btn-default:hover,
 .btn-defauln:focus,
 .btn-default:active {
