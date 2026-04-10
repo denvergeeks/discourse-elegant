@@ -42,9 +42,14 @@ pre > code {
   /*  white-space: pre;  */
 }
 
+/*
 .btn-default:hover,
 .btn-default:focus,
-.btn-default:active {
+.btn-default:active 
+*/
+.btn:hover,
+.btn:focus,
+.btn:active {
     /* outline: 1px dashed #009a49 !important; */
     border: 1px dashed #009a49 !important;
     /* background: transparent !important; */
