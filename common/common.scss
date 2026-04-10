@@ -50,9 +50,9 @@ pre > code {
 .btn:hover,
 .btn:focus,
 .btn:active {
-    /* outline: 1px dashed #009a49 !important; */
-    border: 1px dashed #009a49 !important;
     /* background: transparent !important; */
+    outline: 1px dashed #009a49 !important;
+    /* border: 1px dashed #009a49 !important; */
 }
 
 body.tab-bar-hidden .d-tab-bar {
