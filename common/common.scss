@@ -45,7 +45,8 @@ pre > code {
 .btn-default:hover,
 .btn-defauln:focus,
 .btn-default:active {
-    outline: 1px dashed #009a49 !important;
+    /* outline: 1px dashed #009a49 !important; */
+    border: 1px dashed #009a49 !important;
     /* background: transparent !important; */
 }
 
@@ -202,7 +203,10 @@ body.has-sidebar-page #main-outlet-wrapper {
 }
 */
 
-
+/*
+#d-sidebar.sidebar-container button {
+}
+*/
 
 .sidebar-wrapper,
 .sidebar-footer-wrapper .sidebar-footer-container::before,
