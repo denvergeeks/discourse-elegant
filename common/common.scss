@@ -1680,18 +1680,17 @@ div.footnote-tooltip-content .iframe-expand-icon {
 }
 
 .btn-primary {
-    border: none;
-    font-weight: normal;
-    color: #fff;
+    /* font-weight: normal; */
+    /* color: #fff; */
     background: #009a49;
-    padding: 8px 14px;
+    /* padding: 8px 14px; */
     /* box-shadow: 0 1.36px 8.896px #c4b59d, 0 0 1px !important; */
     box-shadow: 2px 2px 8px rgba(0, 0, 0, .12);
 }
 
 .btn-primary:hover,
 .btn-primary.btn-hover {
-    color: #fff;
+    /* color: #fff; */
     background: #009a49;
 }
 
