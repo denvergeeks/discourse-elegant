@@ -1434,7 +1434,8 @@ a.badge-wrapper.bullet,
 }
 
 .d-header-wrap {
-    box-shadow: 0 2px 5px 0 rgba(196, 181, 157, .4901960784), 0 2px 8px 0 rgba(196, 181, 157, .4901960784);
+    /* box-shadow: 0 2px 5px 0 rgba(196, 181, 157, .4901960784), 0 2px 8px 0 rgba(196, 181, 157, .4901960784); */
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, .12);
 }
 
 /*
@@ -1911,6 +1912,7 @@ table tr:nth-child(even) {
 
 thead.topic-list-header tr {
       background-color: #fff !important;
+      box-shadow: 2px 2px 8px rgba(0, 0, 0, .12);
 }
 
 /*
