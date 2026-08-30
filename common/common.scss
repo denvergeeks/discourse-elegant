@@ -108,7 +108,7 @@ nav.post-controls .show-replies[aria-expanded=true],
     background-color: aliceblue !important;
     box-shadow: 0 4px 14px rgba(0, 0, 0, .15) !important;
     color: var(--tertiary) !important;
-    outline: 1px dotted var(--tertiary) !important;
+    /* outline: 1px dotted var(--tertiary) !important; */
     border-radius: var(--d-button-border-radius) !important;
     border: none !important;
 }
@@ -122,6 +122,7 @@ div#main-outlet button:active {
 }
 */
 
+/*
 div#main-outlet .show-replies:hover,
 div#main-outlet .show-replies:focus,
 div#main-outlet .show-replies:active,
@@ -141,6 +142,7 @@ div#main-outlet .embedded-posts.bottom .collapse-up[aria-expanded=true]:active {
     outline: 1px dotted var(--tertiary) !important;
     border: none !important;
 }
+*/
 
 #post_1 .embedded-posts.bottom>div .row .topic-body,
 .embedded-posts.bottom>div .row .topic-body {
