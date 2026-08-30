@@ -16,11 +16,26 @@
 .list-controls .combo-box .combo-box-header {
   background-color: var(--d-button-default-bg-color);
 }
-.list-controls .combo-box .combo-box-header:hover {
+.list-controls .combo-box .combo-box-header:hover,
+.btn:hover,
+.btn:focus,
+.btn:active {
   background-color: var(--d-button-default-bg-color--hover);
   border: var(--d-button-default-border--hover);
 }
 
+/*
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active 
+*/
+.btn:hover,
+.btn:focus,
+.btn:active {
+    /* background: transparent !important; */
+    /* outline: 1px dashed #009a49 !important; */
+    /* border: 1px dashed #009a49 !important; */
+}
 
 /* box-shadow: 2px 2px 8px rgba(0, 0, 0, .12) */
 /* ?? change all back to box-shadow: 0 1.36px 8.896px #c4b59d, 0 0 1px !important; */
@@ -68,19 +83,6 @@ pre > code {
   white-space: pre-wrap !important;
   /* keep spaces, tabs and line breaks */
   /*  white-space: pre;  */
-}
-
-/*
-.btn-default:hover,
-.btn-default:focus,
-.btn-default:active 
-*/
-.btn:hover,
-.btn:focus,
-.btn:active {
-    /* background: transparent !important; */
-    /* outline: 1px dashed #009a49 !important; */
-    /* border: 1px dashed #009a49 !important; */
 }
 
 body.tab-bar-hidden .d-tab-bar {
