@@ -1,8 +1,8 @@
 :root {
-    --d-button-default-bg-color: #fafafa;
+    --d-button-default-bg-color: #fafafa !important;
     --d-button-default-border: 1px solid var(--primary-300);
-    --d-button-default-border--hover: 1px dashed #009a49;
-    --d-button-default-bg-color--hover: #fff;
+    --d-button-default-border--hover: 1px dashed #009a49 !important;
+    --d-button-default-bg-color--hover: #fff !important;
 }
 
 /* box-shadow: 2px 2px 8px rgba(0, 0, 0, .12) */
