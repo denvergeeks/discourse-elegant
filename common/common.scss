@@ -17,12 +17,17 @@
   background-color: var(--d-button-default-bg-color);
 }
 .list-controls .combo-box .combo-box-header:hover,
+.select-kit.single-select.is-expanded .select-kit-header:not(.btn),
+.select-kit.single-select .select-kit-header:not(.btn):focus,
+.select-kit.single-select .select-kit-header:not(.btn):active,
 .btn:hover,
 .btn:focus,
 .btn:active {
   background-color: var(--d-button-default-bg-color--hover);
   border: var(--d-button-default-border--hover);
 }
+
+
 
 /*
 .btn-default:hover,
