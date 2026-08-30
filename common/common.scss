@@ -1,8 +1,16 @@
-:root {
-    --d-button-default-bg-color: #fafafa !important;
-    --d-button-default-border: 1px solid var(--primary-300);
-    --d-button-default-border--hover: 1px dashed #009a49 !important;
-    --d-button-default-bg-color--hover: #fff !important;
+// Have to use this because of modernize-foundation specificity
+#main-outlet-wrapper,
+.menu-panel {
+  --d-button-default-bg-color: #fafafa;
+  --d-button-default-border--hover: 1px dashed #009a49;
+  --d-button-default-bg-color--hover: #fff;
+  /*  
+  --d-button-default-text-color: var(--primary);
+  --d-button-default-icon-color: var(--primary);
+  --d-button-default-border: 1px solid var(--header_background);
+  --d-button-default-icon-color--hover: var(--primary);
+  --d-button-default-text-color--hover: var(--primary);
+  */
 }
 
 /* box-shadow: 2px 2px 8px rgba(0, 0, 0, .12) */
