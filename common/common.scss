@@ -1247,14 +1247,15 @@ nav.post-controls .actions button.create {
     color: #009a49;
     background: #F5F2EF;
     border-radius: 4px !important;
-     box-shadow: 0 1.36px 8.896px #c4b59d, 0 0 1px #222 !important; 
-    /* box-shadow: 2px 2px 8px rgba(0, 0, 0, .12); */
+     box-shadow: 0 1.36px 8.896px #c4b59d, 0 0 1px #222; 
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, .12), 0 0 1px #222;
 }
 
 .discourse-no-touch nav.post-controls .actions button:hover,
 .discourse-no-touch nav.post-controls .actions button:focus-visible,
 .discourse-no-touch nav.post-controls .actions button:active {
     outline: var(--d-button-default-border--hover);
+    outline-offset: -1px;
     background: var(--d-button-default-bg-color--hover);
     color: var(--d-post-control-text-color--hover);
 }
