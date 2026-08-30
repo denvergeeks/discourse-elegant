@@ -1912,9 +1912,12 @@ table tr:nth-child(even) {
 
 thead.topic-list-header tr {
   background-color: #fff;
+  /*
   box-shadow: 2px 2px 8px rgba(0, 0, 0, .12);
   box-shadow: 0px 0px 2px rgba(0, 0, 0, .25);
   box-shadow: 0px 0px 15px rgba(0, 0, 0, .15);
+  */
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, .15);
   backdrop-filter: blur(5px);
 }
 
