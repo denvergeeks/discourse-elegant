@@ -96,10 +96,12 @@ body.tab-bar-hidden .d-tab-bar {
     transition: all .2s ease-in;
 }
 
+/*
 nav.post-controls .show-replies,
 nav.post-controls .show-replies[aria-expanded=true] {
     padding: 8px 10px !important;
 }
+*/
 
 /*  */
 nav.post-controls .show-replies,
@@ -109,7 +111,7 @@ nav.post-controls .show-replies[aria-expanded=true],
     /* box-shadow: 0 4px 14px rgba(0, 0, 0, .15) !important; */
   /* box-shadow: 0 1.36px 8.896px #c4b59d, 0 0 1px #222 !important; */
     color: var(--tertiary) !important;
-    outline: 1px dotted var(--tertiary) !important;
+    outline: 1px dashed var(--tertiary) !important;
     outline-offset: -1px;
     border-radius: var(--d-button-border-radius) !important;
     border: var(--d-button-border);
@@ -124,7 +126,7 @@ div#main-outlet button:active {
 }
 */
 
-/*
+
 div#main-outlet .show-replies:hover,
 div#main-outlet .show-replies:focus,
 div#main-outlet .show-replies:active,
@@ -142,9 +144,8 @@ div#main-outlet .embedded-posts.bottom .collapse-up[aria-expanded=true]:active {
     box-shadow: 0 4px 14px rgba(0, 0, 0, .15) !important;
     color: var(--tertiary) !important;
     outline: 1px dotted var(--tertiary) !important;
-    border: none !important;
 }
-*/
+
 
 #post_1 .embedded-posts.bottom>div .row .topic-body,
 .embedded-posts.bottom>div .row .topic-body {
