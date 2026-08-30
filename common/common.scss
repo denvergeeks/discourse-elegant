@@ -1251,6 +1251,18 @@ nav.post-controls .actions button.create {
     /* box-shadow: 2px 2px 8px rgba(0, 0, 0, .12); */
 }
 
+.discourse-no-touch nav.post-controls .actions button:hover,
+.discourse-no-touch nav.post-controls .actions button:focus-visible,
+.discourse-no-touch nav.post-controls .actions button:active {
+    outline: var(--d-button-default-border--hover);
+    background: var(--d-button-default-bg-color--hover);
+    color: var(--d-post-control-text-color--hover);
+}
+
+  --d-button-default-bg-color: #fafafa;
+  --d-button-default-border--hover: 1px dashed #009a49;
+  --d-button-default-bg-color--hover: #fff;
+
 .svg-svg-icon:not(.d-icon-tippy-rounded-arrow),
 .svg-icon-title {
     fill: #4e2b2bb0 !important;
