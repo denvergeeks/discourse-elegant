@@ -1247,8 +1247,16 @@ nav.post-controls .actions button.create {
     color: #009a49;
     background: #f1fff0;
     border-radius: 4px !important;
-     box-shadow: 0 1.36px 8.896px #c4b59d, 0 0 1px #222; 
     box-shadow: 2px 2px 8px rgba(0, 0, 0, .12), 0 0 1px #222;
+      font-weight: 700;
+    background-color: rgba(78, 43, 43, .8);
+    color: rgba(0, 0, 0, 0);
+    text-shadow: 2px 2px 3px hsla(0, 0%, 100%, .5);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    opacity: 1;
+}
 }
 
 .discourse-no-touch nav.post-controls .actions button:hover,
