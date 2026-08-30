@@ -1276,6 +1276,8 @@ nav.post-controls .actions button.create {
     -moz-background-clip: text;
     background-clip: text;
     opacity: 1;
+    transform: perspective(1000px) rotate(-2deg) rotateX(4deg) rotateY(352deg) scale3d(1, 1, 1);
+    will-change: transform;
 }
 
 .svg-svg-icon:not(.d-icon-tippy-rounded-arrow),
