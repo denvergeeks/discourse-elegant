@@ -1,3 +1,10 @@
+:root {
+    --d-button-default-bg-color: #fafafa;
+    --d-button-default-border: 1px solid var(--primary-300);
+    --d-button-default-border--hover: 1px dashed #009a49;
+    --d-button-default-bg-color--hover: #fff;
+}
+
 /* box-shadow: 2px 2px 8px rgba(0, 0, 0, .12) */
 /* ?? change all back to box-shadow: 0 1.36px 8.896px #c4b59d, 0 0 1px !important; */
 /* ?? or to box-shadow: 0 1.36px 8.896px #c4b59d, 0 0 1px #222 !important; */
