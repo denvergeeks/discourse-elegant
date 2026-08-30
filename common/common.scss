@@ -1263,9 +1263,9 @@ nav.post-controls .actions button.create {
     color: #009a49 !important;
 }
 
-.discourse-no-touch nav.post-controls .actions button:hover,
-.discourse-no-touch nav.post-controls .actions button:focus-visible,
-.discourse-no-touch nav.post-controls .actions button:active {
+.discourse-no-touch nav.post-controls .actions button.create:hover,
+.discourse-no-touch nav.post-controls .actions button.create:focus-visible,
+.discourse-no-touch nav.post-controls .actions button.create:active {
     outline: var(--d-button-default-border--hover);
     outline-offset: -1px;
     background: var(--d-button-default-bg-color--hover);
