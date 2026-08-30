@@ -1270,7 +1270,7 @@ nav.post-controls .actions button.create {
     outline-offset: -1px;
     background: var(--d-button-default-bg-color--hover);
     color: var(--d-post-control-text-color--hover);
-  
+    filter: drop-shadow(1px 4px 2px rgba(0, 0, 0, 0.2));
     text-shadow: 2px 2px 3px hsla(0, 0%, 100%, .5);
     -webkit-background-clip: text;
     -moz-background-clip: text;
