@@ -1911,10 +1911,11 @@ table tr:nth-child(even) {
 }
 
 thead.topic-list-header tr {
-  background-color: #fff !important;
+  background-color: #fff;
   box-shadow: 2px 2px 8px rgba(0, 0, 0, .12);
   box-shadow: 0px 0px 2px rgba(0, 0, 0, .25);
-  backdrop-filter: blur(5px) !important;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, .15);
+  backdrop-filter: blur(5px);
 }
 
 /*
